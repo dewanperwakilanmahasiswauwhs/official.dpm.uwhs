@@ -282,18 +282,21 @@ p {
   color       : rgb(0, 0, 0);
 }
 
-/* CAROUSEL */
+/* CAROUSEL----------------------- */
 .carousel-inner {
-position: relative;
+  position: relative;
+  size    : 15rem;
 
 }
 
 .carousel-item p {
   text-decoration      : underline;
-  color                : #ffffff;
-  font-size            : 35px;
+  color                : #ff0000;
+  font-size            : 10px;
   text-decoration-color: #000000;
   text-underline-offset: 10px;
+  border               : #000;
+  border-radius        : 5px;
 }
 
 /* CARD */
@@ -306,7 +309,7 @@ position: relative;
 }
 
 .card-group {
-  background-color: #000000;
+  background-color: #505050;
   gap             : 7px;
   animation-delay : 1200ms;
 }
@@ -372,6 +375,9 @@ body {
   margin   : auto;
 }
 
+.container p {
+  color: #000;
+}
 
 .row {
   display  : flex;
@@ -382,20 +388,17 @@ body {
 .footer {
   background-color: #282828;
   padding         : 70px 0;
-  height: 17rem;
+  padding-top     : 5rem;
+  height          : 17rem;
 }
 
-.footer-col {
-  width  : 25%;
-  padding: 0 15px;
-  padding-bottom: 10rem;
-}
+
 
 .footer-col h4 {
-  font-size     : 18px;
-  color         : #ffffff;
-  font-weight   : 500;
-  position      : relative;
+  font-size  : 18px;
+  color      : #ffffff;
+  font-weight: 500;
+  position   : relative;
 }
 
 .footer-col h4::before {
