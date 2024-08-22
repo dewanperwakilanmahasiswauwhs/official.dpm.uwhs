@@ -11,8 +11,8 @@
   letter-spacing: 1px;
 }
 
-.body {
-  background-color: rgb(0, 76, 76);
+body {
+  background-color: rgb(106, 106, 106);
 }
 
 /* Navnbar */
@@ -350,164 +350,110 @@ small {
 /* CAROUSEL */
 .carousel-inner {
   position: relative;
-  
-  }
-  
-  .carousel-item p {
-    text-decoration      : underline;
-    color                : #ffffff;
-    font-size            : 35px;
-    text-decoration-color: #000000;
-    text-underline-offset: 10px;
-  }
-  
-  /* CARD */
-  .card {
-    border-radius        : 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius   : 10px;
-    -ms-border-radius    : 10px;
-    -o-border-radius     : 10px;
-  }
-  
-  .card-group {
-    background-color: #000000;
-    gap             : 7px;
-    animation-delay : 1200ms;
-  }
-  
-  .card-body {
-    background-color     : #820202;
-    mask-border-outset   : 2px;
-    margin-left          : 10px;
-    margin-right         : 10px;
-    margin-top           : 10px;
-    margin-bottom        : 10px;
-    border-radius        : 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius   : 10px;
-    -ms-border-radius    : 10px;
-    -o-border-radius     : 10px;
-  }
-  
-  .card-img {
-    aspect-ratio : 177.777778%;
-    margin-left  : 5px;
-    margin-right : 5px;
-    margin-top   : 5px;
-    margin-bottom: 5px;
-  }
-  
-  .card-title {
-    font-size  : 15px;
-    font-weight: 600;
-    color      : #00fff7;
-  }
-  
-  .card-text {
-    font-size  : 12px;
-    font-weight: 50;
-    font-style : italic;
-    color      : #ffffff;
-  }
-  
-  small {
-    color: #bfb500;
-  }
-  
-  
-  
-  /* --------------------------------------------------- */
-  /* FOOTER */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-  
-  body {
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  * {
-    margin    : 0;
-    padding   : 0;
-    box-sizing: border-box;
-  }
-  
-  .container {
-    max-width: 1170px;
-    margin   : auto;
-  }
-  
-  
-  .row {
-    display  : flex;
-    flex-wrap: wrap;
-  }
-  
-  
-  .footer {
-    background-color: #282828;
-    padding         : 70px 0;
-    height: 17rem;
-  }
-  
+
+}
+
+.carousel-item p {
+  text-decoration      : underline;
+  color                : #ffffff;
+  font-size            : 35px;
+  text-decoration-color: #000000;
+  text-underline-offset: 10px;
+}
+
+
+/* --------------------------------------------------- */
+/* FOOTER */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin    : 0;
+  padding   : 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display  : bottom;
+  max-width: 1170px;
+  margin   : auto;
+}
+
+
+.row {
+  display  : flex;
+  flex-wrap: wrap;
+}
+
+
+.footer {
+  background-color: #282828;
+  padding         : 50px;
+  height          : 210px;
+}
+
+.footer-col {
+  width         : 35%;
+  padding       : 0 15px;
+  padding-bottom: 10rem;
+}
+
+.footer-col h4 {
+  font-size  : 18px;
+  color      : #ffffff;
+  font-weight: 500;
+  position   : relative;
+}
+
+.footer-col h4::before {
+  content         : '';
+  position        : absolute;
+  left            : 0;
+  bottom          : -10px;
+  background-color: #900202;
+  height          : 2px;
+  box-sizing      : border-box;
+  width           : 15rem;
+}
+
+
+/*  */
+
+.footer-col .social-links a {
+  display      : inline-block;
+  font-size    : 20px;
+  height       : 40px;
+  width        : 40px;
+  margin       : 20px;
+  margin-bottom: 20px;
+  text-align   : center;
+  line-height  : 40px;
+  border-radius: 25%;
+  color        : #00e5ff;
+  transition   : all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+  color           : #000000;
+  background-color: #9b9a9a;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px) {
   .footer-col {
-    width  : 25%;
-    padding: 0 15px;
-    padding-bottom: 10rem;
+    width        : 50%;
+    margin-bottom: 30px;
   }
-  
-  .footer-col h4 {
-    font-size     : 18px;
-    color         : #ffffff;
-    font-weight   : 500;
-    position      : relative;
+}
+
+@media(max-width: 574px) {
+  .footer-col {
+    width: 100%;
   }
-  
-  .footer-col h4::before {
-    content         : '';
-    position        : absolute;
-    left            : 0;
-    bottom          : -10px;
-    background-color: #900202;
-    height          : 2px;
-    box-sizing      : border-box;
-    width           : 15rem;
-  }
-  
-  
-  /*  */
-  
-  .footer-col .social-links a {
-    display      : inline-block;
-    font-size    : 20px;
-    height       : 40px;
-    width        : 40px;
-    margin       : 20px;
-    margin-bottom: 20px;
-    text-align   : center;
-    line-height  : 40px;
-    border-radius: 25%;
-    color        : #00e5ff;
-    transition   : all 0.5s ease;
-  }
-  
-  .footer-col .social-links a:hover {
-    color           : #000000;
-    background-color: #9b9a9a;
-  }
-  
-  
-  
-  /*responsive*/
-  @media(max-width: 767px) {
-    .footer-col {
-      width        : 50%;
-      margin-bottom: 30px;
-    }
-  }
-  
-  @media(max-width: 574px) {
-    .footer-col {
-      width: 100%;
-    }
-  }
+}

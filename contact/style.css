@@ -306,6 +306,8 @@ h2.Heading {
   font-size       : 30px;
   color           : #ba0303;
   align-items     : center;
+  transition      : 3s;
+  animation-delay : 1s;
 }
 
 .phone {
@@ -316,7 +318,9 @@ h2.Heading {
   margin         : 7px;
   margin-top     : 30px;
   margin-bottom  : 10px;
-  padding-top    : 3rem;
+  padding-top    : 1rem;
+  transition     : 3s;
+  animation-delay: 2s;
 
 }
 
@@ -328,6 +332,8 @@ h2.Heading {
   margin         : 7px;
   margin-bottom  : 10px;
   padding-bottom : 5rem;
+  transition     : 3s;
+  animation-delay: 2s;
 }
 
 
@@ -462,7 +468,7 @@ body {
 .footer {
   background-color: #282828;
   padding         : 50px 0;
-  height          : 17rem;
+  height          : 210px;
 }
 
 .footer-col {

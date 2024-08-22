@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #9c9c9c;
+  background-color: #908e8e;
 }
 
 /* Navnbar */
@@ -314,28 +314,30 @@ p {
   border-radius        : 5px;
 }
 
-/* CARD */
+/* CARD------------------------------------------------ */
 .card {
   border-radius        : 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius   : 10px;
   -ms-border-radius    : 10px;
   -o-border-radius     : 10px;
+  background-color     : #292929;
 }
 
 .card-group {
   background-color: #505050;
   gap             : 7px;
   animation-delay : 1200ms;
+  display         : flexbox;
 }
 
 .card-body {
   background-color     : #820202;
   mask-border-outset   : 2px;
-  margin-left          : 10px;
-  margin-right         : 10px;
-  margin-top           : 10px;
-  margin-bottom        : 10px;
+  margin-left          : 30px;
+  margin-right         : 30px;
+  margin-top           : 30px;
+  margin-bottom        : 30px;
   border-radius        : 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius   : 10px;
@@ -344,7 +346,7 @@ p {
 }
 
 .card-img {
-  aspect-ratio : 177.777778%;
+  aspect-ratio : 70%;
   margin-left  : 5px;
   margin-right : 5px;
   margin-top   : 5px;
@@ -388,6 +390,7 @@ body {
 .container {
   max-width: 1170px;
   margin   : auto;
+  height   : 170px;
 }
 
 .container p {
