@@ -94,6 +94,20 @@ nav ul li a:hover {
   -o-transition        : 0.3s;
 }
 
+nav ul li a.active {
+  font-size            : 12px;
+  text-decoration-color: #ffffff;
+  color                : rgb(4, 162, 117);
+  text-underline-offset: 10px;
+  letter-spacing       : 1px;
+  font-weight          : 700;
+  transform            : rotate(5deg);
+  -webkit-transform    : rotate(5deg);
+  -moz-transform       : rotate(5deg);
+  -ms-transform        : rotate(5deg);
+  -o-transform         : rotate(5deg);
+}
+
 /* Menu Toggle */
 .menu-toggle {
   display        : none;
@@ -417,9 +431,11 @@ body {
 
 .footer-col .social-links a {
   display      : inline-block;
+  font-size    : 20px;
   height       : 40px;
   width        : 40px;
   margin       : 20px;
+  margin-bottom: 20px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;

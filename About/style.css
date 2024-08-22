@@ -93,6 +93,20 @@ nav ul li a:hover {
   -o-transition        : 0.3s;
 }
 
+nav ul li a.active {
+  font-size            : 12px;
+  text-decoration-color: #ffffff;
+  color                : rgb(4, 162, 117);
+  text-underline-offset: 10px;
+  letter-spacing       : 1px;
+  font-weight          : 700;
+  transform            : rotate(5deg);
+  -webkit-transform    : rotate(5deg);
+  -moz-transform       : rotate(5deg);
+  -ms-transform        : rotate(5deg);
+  -o-transform         : rotate(5deg);
+}
+
 /* Menu Toggle */
 .menu-toggle {
   display        : none;
@@ -253,7 +267,7 @@ h4.content {
 center h1 {
   color        : #ff1100;
   font-family  : "acme", cursive;
-  margin-top   : 90px;
+  margin-top   : 60px;
   margin-bottom: 25px;
   margin-left  : 25px;
   margin-right : 25px;
@@ -275,7 +289,7 @@ h5 {
 
 /* CONTENT-------------------------------------------------- */
 .container {
-  padding         : 10px;
+  padding         : 20px;
   padding-top     : 80px;
   margin-top      : 20px;
   background-color: #1a1a1a;
@@ -359,9 +373,11 @@ body {
 
 .footer-col .social-links a {
   display      : inline-block;
+  font-size    : 20px;
   height       : 40px;
   width        : 40px;
   margin       : 20px;
+  margin-bottom: 20px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;

@@ -11,7 +11,7 @@
   letter-spacing: 1px;
 }
 
-.body {
+body {
   background-color: rgb(99, 99, 99);
 }
 
@@ -91,6 +91,20 @@ nav ul li a:hover {
   -moz-transition      : 0.3s;
   -ms-transition       : 0.3s;
   -o-transition        : 0.3s;
+}
+
+nav ul li a.active {
+  font-size            : 12px;
+  text-decoration-color: #ffffff;
+  color                : rgb(4, 162, 117);
+  text-underline-offset: 10px;
+  letter-spacing       : 1px;
+  font-weight          : 700;
+  transform            : rotate(5deg);
+  -webkit-transform    : rotate(5deg);
+  -moz-transform       : rotate(5deg);
+  -ms-transform        : rotate(5deg);
+  -o-transform         : rotate(5deg);
 }
 
 /* Menu Toggle */
@@ -278,18 +292,44 @@ p {
 }
 
 /* CONTENT---------------------------------------------- */
-h4.Heading {
-  padding: 5rem;
+h2.Heading {
+  padding    : 5rem;
+  padding-top: 7rem;
+  color      : #6e0000;
 }
 
 .social-links-dpm {
   display         : flex;
   position        : relative;
   justify-content : space-around;
-  background-color: #9b9a9a;
-  font-size       : 25px;
-  color           : #900202;
+  background-color: rgb(99, 99, 99);
+  font-size       : 30px;
+  color           : #ba0303;
+  align-items     : center;
 }
+
+.phone {
+  display        : flex;
+  position       : relative;
+  justify-content: center;
+  font-size      : 20px;
+  margin         : 7px;
+  margin-top     : 30px;
+  margin-bottom  : 10px;
+  padding-top    : 3rem;
+
+}
+
+.mail {
+  display        : flex;
+  position       : relative;
+  justify-content: center;
+  font-size      : 20px;
+  margin         : 7px;
+  margin-bottom  : 10px;
+  padding-bottom : 5rem;
+}
+
 
 @media (max-width: 1024px) {
   .contact_us_green .responsive-container-block.container {
@@ -307,7 +347,7 @@ h4.Heading {
   .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-7.wk-ipadp-10.line {
     padding-top   : 0px;
     padding-right : 20px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
     padding-left  : 0px;
   }
 
@@ -421,12 +461,12 @@ body {
 
 .footer {
   background-color: #282828;
-  padding         : 70px 0;
+  padding         : 50px 0;
   height          : 17rem;
 }
 
 .footer-col {
-  width         : 25%;
+  width         : 35%;
   padding       : 0 15px;
   padding-bottom: 10rem;
 }
@@ -454,9 +494,11 @@ body {
 
 .footer-col .social-links a {
   display      : inline-block;
+  font-size    : 20px;
   height       : 40px;
   width        : 40px;
   margin       : 20px;
+  margin-bottom: 20px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;
