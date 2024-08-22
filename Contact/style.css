@@ -282,13 +282,13 @@ h4.Heading {
   padding: 5rem;
 }
 
-.social-links-dpm{
-  display: flex;
-  position: relative;
-  justify-content: space-around;
+.social-links-dpm {
+  display         : flex;
+  position        : relative;
+  justify-content : space-around;
   background-color: #9b9a9a;
-  font-size: 25px;
-  color: #900202;
+  font-size       : 25px;
+  color           : #900202;
 }
 
 @media (max-width: 1024px) {
