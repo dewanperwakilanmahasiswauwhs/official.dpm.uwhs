@@ -291,76 +291,9 @@ p {
   color       : rgb(0, 0, 0);
 }
 
-/* CARD */
-.card {
-  border-radius        : 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius   : 10px;
-  -ms-border-radius    : 10px;
-  -o-border-radius     : 10px;
+.container {
+  padding-bottom: 150px
 }
-
-.card-group {
-  background-color: #2e2e2e;
-  gap             : 7px;
-  animation-delay : 1200ms;
-}
-
-.card-body {
-  background-color     : #6e0000;
-  border-color         : #010000;
-  mask-border-outset   : 2px;
-  margin-left          : 10px;
-  margin-right         : 10px;
-  margin-top           : 10px;
-  margin-bottom        : 10px;
-  border-radius        : 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius   : 10px;
-  -ms-border-radius    : 10px;
-  -o-border-radius     : 10px;
-}
-
-.card-img {
-  aspect-ratio : 177.777778%;
-  /* 16/9 */
-  margin-left  : 5px;
-  margin-right : 5px;
-  margin-top   : 5px;
-  margin-bottom: 5px;
-}
-
-.card-title {
-  font-size  : 15px;
-  font-weight: 600;
-  color      : #f4f0a6;
-}
-
-.card-text {
-  font-size  : 12px;
-  font-weight: 50;
-  font-style : italic;
-  color      : #ffffff;
-}
-
-small {
-  color: #bfb500;
-}
-
-/* CAROUSEL */
-.carousel-inner {
-  position: relative;
-
-}
-
-.carousel-item p {
-  text-decoration      : underline;
-  color                : #ffffff;
-  font-size            : 35px;
-  text-decoration-color: #000000;
-  text-underline-offset: 10px;
-}
-
 
 /* --------------------------------------------------- */
 /* FOOTER */
@@ -378,7 +311,6 @@ body {
 }
 
 .container {
-  display  : bottom;
   max-width: 1170px;
   margin   : auto;
 }
@@ -392,8 +324,8 @@ body {
 
 .footer {
   background-color: #282828;
-  padding         : 50px;
-  height          : 210px;
+  padding         : 50px 0;
+  height          : 220px;
 }
 
 .footer-col {
@@ -409,21 +341,12 @@ body {
   position   : relative;
 }
 
-.footer-col h4::before {
-  content         : '';
-  position        : absolute;
-  left            : 0;
-  bottom          : -10px;
-  background-color: #900202;
-  height          : 2px;
-  box-sizing      : border-box;
-  width           : 15rem;
-}
+
 
 
 /*  */
 
-.footer-col .social-links a {
+.footer-col .social-links-me a {
   display      : inline-block;
   font-size    : 20px;
   height       : 40px;
@@ -437,7 +360,7 @@ body {
   transition   : all 0.5s ease;
 }
 
-.footer-col .social-links a:hover {
+.footer-col .social-links-me a:hover {
   color           : #000000;
   background-color: #9b9a9a;
 }

@@ -298,17 +298,6 @@ h2.Heading {
   color      : #6e0000;
 }
 
-.social-links-dpm {
-  display         : flex;
-  position        : relative;
-  justify-content : space-around;
-  background-color: rgb(99, 99, 99);
-  font-size       : 30px;
-  color           : #ba0303;
-  align-items     : center;
-  transition      : 3s;
-  animation-delay : 1s;
-}
 
 .phone {
   display        : flex;
@@ -336,6 +325,18 @@ h2.Heading {
   animation-delay: 2s;
 }
 
+.social-links-dpm a {
+  padding-top    : 500px;
+  margin         : 3rem;
+  display        : wrap;
+  position       : relative;
+  justify-content: space-around;
+  align-items    : center;
+  font-size      : 30px;
+  border-radius  : 20%;
+  transition     : 1000ms;
+  animation-delay: 500ms;
+}
 
 @media (max-width: 1024px) {
   .contact_us_green .responsive-container-block.container {
@@ -484,21 +485,12 @@ body {
   position   : relative;
 }
 
-.footer-col h4::before {
-  content         : '';
-  position        : absolute;
-  left            : 0;
-  bottom          : -10px;
-  background-color: #900202;
-  height          : 2px;
-  box-sizing      : border-box;
-  width           : 15rem;
-}
+
 
 
 /*  */
 
-.footer-col .social-links a {
+.footer-col .social-links-me a {
   display      : inline-block;
   font-size    : 20px;
   height       : 40px;
@@ -512,7 +504,7 @@ body {
   transition   : all 0.5s ease;
 }
 
-.footer-col .social-links a:hover {
+.footer-col .social-links-me a:hover {
   color           : #000000;
   background-color: #9b9a9a;
 }
