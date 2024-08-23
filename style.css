@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #6e6e6e;
+  background-color: #606060;
 }
 
 /* Navnbar */
@@ -283,8 +283,8 @@ h1 span {
 }
 
 h5 {
-  margin-left    : 2rem;
-  margin-right   : 2rem;
+  margin-left    : 4rem;
+  margin-right   : 4rem;
   color          : rgb(0, 3, 5);
   animation-delay: 1000ms;
 }
@@ -321,18 +321,18 @@ p {
   -moz-border-radius   : 10px;
   -ms-border-radius    : 10px;
   -o-border-radius     : 10px;
-  background-color     : #333333;
+  background-color     : #303030;
 }
 
 .card-group {
-  background-color: #505050;
-  gap             : 20px;
+  background-color: #6d6c6c;
+  gap             : 25px;
   animation-delay : 1200ms;
   display         : flexbox;
 }
 
 .card-body {
-  background-color     : #820202;
+  background-color     : #6b0000;
   mask-border-outset   : 2px;
   margin-left          : 10px;
   margin-right         : 10px;

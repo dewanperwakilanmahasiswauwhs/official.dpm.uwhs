@@ -264,29 +264,22 @@ nav ul.slide {
 center h1 {
   color        : #7b0b03;
   font-family  : "acme", cursive;
-  margin-top   : 90px;
-  margin-bottom: 25px;
+  margin-top   : 50px;
+  margin-bottom: 10px;
   margin-left  : 25px;
   margin-right : 25px;
   font-weight  : 900;
   font-size    : 20px;
 }
 
-h1 span {
-  color: #00322d;
-}
-
-h5 {
-  font-size      : 12px;
-  margin-left    : 2rem;
-  margin-right   : 2rem;
-  color          : rgb(0, 3, 5);
-  animation-delay: 1000ms;
+h2 {
+  padding: 0;
+  margin : 0;
 }
 
 p {
-  margin-left : 2rem;
-  margin-right: 2rem;
+  margin-left : 5px;
+  margin-right: 5px;
   font-size   : 15px;
   color       : rgb(0, 0, 0);
 }
@@ -298,6 +291,7 @@ h2.Heading {
   color      : #6e0000;
 }
 
+h3.text-blk {}
 
 .phone {
   display        : flex;
@@ -479,7 +473,7 @@ body {
 }
 
 .row {
-  padding-top     : 25px;
+  padding-top     : 10px;
   display         : flex;
   flex-wrap       : wrap;
   background-color: #171717;
@@ -513,7 +507,7 @@ body {
   height       : 40px;
   width        : 40px;
   margin       : 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;

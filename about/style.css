@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #171717;
+  background-color: #636363;
 }
 
 /* Navnbar */
@@ -265,7 +265,7 @@ h4.content {
 }
 
 center h1 {
-  color        : #ff1100;
+  color        : #7b0b03;
   font-family  : "acme", cursive;
   margin-top   : 60px;
   margin-bottom: 25px;
@@ -276,7 +276,8 @@ center h1 {
 }
 
 h1 span {
-  color: #00ffe5;
+  color: #00322d;
+  ;
 }
 
 h5 {
@@ -290,14 +291,14 @@ h5 {
 /* CONTENT-------------------------------------------------- */
 .container-img {
   padding         : 20px;
-  padding-top     : 80px;
+  padding-top     : 20px;
   margin-top      : 20px;
   padding-bottom  : 100px;
-  background-color: #1a1a1a;
+  background-color: #636363;
 
 }
 
-.container img {
+.container-img img {
   margin-top      : 15px;
   transition      : 3000ms;
   transition-delay: 1000ms;
