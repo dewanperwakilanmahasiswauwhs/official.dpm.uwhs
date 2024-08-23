@@ -337,10 +337,12 @@ h2.Heading {
 }
 
 .mail p {
-  font-size: 18px;
+  font-size    : 18px;
+  margin-bottom: 110px;
 }
 
 .social-links-dpm a {
+  margin-bottom   : 110px;
   margin          : 3rem;
   display         : wrap;
   position        : relative;
@@ -482,7 +484,7 @@ body {
 .footer {
   background-color: #171717;
   padding         : 50px 0;
-  height          : 210px;
+  height          : 220px;
 }
 
 .footer-col {

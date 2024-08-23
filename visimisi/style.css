@@ -314,6 +314,9 @@ body {
   margin   : auto;
 }
 
+.footer .container p {
+  color: #000000;
+}
 
 .row {
   display  : flex;
@@ -324,7 +327,7 @@ body {
 .footer {
   background-color: #171717;
   padding         : 50px 0;
-  height          : 210px;
+  height          : 220px;
 }
 
 .footer-col {
