@@ -371,8 +371,7 @@ small {
 
 /* --------------------------------------------------- */
 /* FOOTER */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+/* --------------------------------------------------- */
 body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
@@ -389,9 +388,6 @@ body {
   margin   : auto;
 }
 
-.container p {
-  color: #000;
-}
 
 .row {
   display  : flex;
@@ -400,13 +396,16 @@ body {
 
 
 .footer {
-  background-color: #282828;
-  padding         : 70px 0;
-  padding-top     : 5rem;
-  height          : 17rem;
+  background-color: #171717;
+  padding         : 50px 0;
+  height          : 210px;
 }
 
-
+.footer-col {
+  background-color: #171717;
+  width           : 35%;
+  padding         : 0 15px;
+}
 
 .footer-col h4 {
   font-size  : 18px;
@@ -415,21 +414,9 @@ body {
   position   : relative;
 }
 
-.footer-col h4::before {
-  content         : '';
-  position        : absolute;
-  left            : 0;
-  bottom          : -10px;
-  background-color: #900202;
-  height          : 2px;
-  box-sizing      : border-box;
-  width           : 15rem;
-}
-
-
 /*  */
 
-.footer-col .social-links a {
+.footer-col .social-links-me a {
   display      : inline-block;
   font-size    : 20px;
   height       : 40px;
@@ -443,7 +430,7 @@ body {
   transition   : all 0.5s ease;
 }
 
-.footer-col .social-links a:hover {
+.footer-col .social-links-me a:hover {
   color           : #000000;
   background-color: #9b9a9a;
 }

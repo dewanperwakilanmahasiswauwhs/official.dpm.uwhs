@@ -297,8 +297,7 @@ p {
 
 /* --------------------------------------------------- */
 /* FOOTER */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
+/* --------------------------------------------------- */
 body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
@@ -323,15 +322,15 @@ body {
 
 
 .footer {
-  background-color: #282828;
+  background-color: #171717;
   padding         : 50px 0;
-  height          : 220px;
+  height          : 210px;
 }
 
 .footer-col {
-  width         : 35%;
-  padding       : 0 15px;
-  padding-bottom: 10rem;
+  background-color: #171717;
+  width           : 35%;
+  padding         : 0 15px;
 }
 
 .footer-col h4 {
@@ -340,9 +339,6 @@ body {
   font-weight: 500;
   position   : relative;
 }
-
-
-
 
 /*  */
 

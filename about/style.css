@@ -309,13 +309,9 @@ h5 {
 }
 
 /* CONTENT--------------------------------------------------------- */
-
-
-
+/* --------------------------------------------------- */
 /* --------------------------------------------------- */
 /* FOOTER */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
@@ -327,15 +323,9 @@ body {
   box-sizing: border-box;
 }
 
-footer.footer {
-  align-items: end;
-  height     : 10px;
-}
-
 .container {
   max-width: 1170px;
   margin   : auto;
-  color    : #000000;
 }
 
 
@@ -346,15 +336,15 @@ footer.footer {
 
 
 .footer {
-  background-color: #282828;
-  padding         : 70px 0;
-  height          : 17rem;
+  background-color: #171717;
+  padding         : 50px 0;
+  height          : 210px;
 }
 
 .footer-col {
-  width         : 25%;
-  padding       : 0 15px;
-  padding-bottom: 10rem;
+  background-color: #171717;
+  width           : 35%;
+  padding         : 0 15px;
 }
 
 .footer-col h4 {
@@ -364,41 +354,9 @@ footer.footer {
   position   : relative;
 }
 
-.footer-col h4::before {
-  content         : '';
-  position        : absolute;
-  left            : 0;
-  bottom          : -10px;
-  background-color: #900202;
-  height          : 2px;
-  box-sizing      : border-box;
-}
-
-.row.footer-col.border span {
-  display              : flex;
-  width                : 100px;
-  display              : block;
-  margin-bottom        : 0.5px;
-  width                : 25px;
-  height               : 3.5px;
-  transition           : 0.3s;
-  -webkit-transition   : 0.3s;
-  -moz-transition      : 0.3s;
-  -ms-transition       : 0.3s;
-  -o-transition        : 0.3s;
-  border-radius        : 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius   : 3px;
-  -ms-border-radius    : 3px;
-  -o-border-radius     : 3px;
-  border-style         : inset;
-  border-width         : 1px;
-  color                : rgb(255, 0, 0);
-}
-
 /*  */
 
-.footer-col .social-links a {
+.footer-col .social-links-me a {
   display      : inline-block;
   font-size    : 20px;
   height       : 40px;
@@ -412,7 +370,7 @@ footer.footer {
   transition   : all 0.5s ease;
 }
 
-.footer-col .social-links a:hover {
+.footer-col .social-links-me a:hover {
   color           : #000000;
   background-color: #9b9a9a;
 }
