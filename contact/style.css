@@ -291,7 +291,9 @@ h2.Heading {
   color      : #6e0000;
 }
 
-h3.text-blk {}
+h3.text-blk {
+  padding: 0;
+}
 
 .phone {
   display        : flex;
