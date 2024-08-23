@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: rgb(55, 55, 55);
+  background-color: #171717;
 }
 
 /* Navnbar */
@@ -288,10 +288,11 @@ h5 {
 }
 
 /* CONTENT-------------------------------------------------- */
-.container {
+.container-img {
   padding         : 20px;
   padding-top     : 80px;
   margin-top      : 20px;
+  padding-bottom  : 100px;
   background-color: #1a1a1a;
 
 }
@@ -314,7 +315,7 @@ h5 {
 /* FOOTER */
 body {
   line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'acme', sans-serif;
 }
 
 * {
@@ -329,14 +330,15 @@ body {
 }
 
 .footer .container p {
-  color: #000000;
+  color: #3e3e3e;
 }
 
 .row {
-  display  : flex;
-  flex-wrap: wrap;
+  padding-top     : 25px;
+  display         : flex;
+  flex-wrap       : wrap;
+  background-color: #171717;
 }
-
 
 .footer {
   background-color: #171717;
@@ -361,7 +363,6 @@ body {
 
 .footer-col .social-links-me a {
   display      : inline-block;
-  height       : fit-content;
   font-size    : 20px;
   height       : 40px;
   width        : 40px;

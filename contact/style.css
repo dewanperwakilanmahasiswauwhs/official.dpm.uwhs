@@ -474,10 +474,15 @@ body {
   margin   : auto;
 }
 
+.footer .container p {
+  color: #3e3e3e;
+}
 
 .row {
-  display  : flex;
-  flex-wrap: wrap;
+  padding-top     : 25px;
+  display         : flex;
+  flex-wrap       : wrap;
+  background-color: #171717;
 }
 
 
@@ -526,7 +531,7 @@ body {
 /*responsive*/
 @media(max-width: 767px) {
   .footer-col {
-    width        : 50%;
+    width        : 10%;
     margin-bottom: 30px;
   }
 }
