@@ -54,9 +54,8 @@ nav {
   align-items        : center;
   height             : 60px;
   width              : 100%;
-  border-bottom-style: ridge;
+  border-bottom-style: solid;
   border-color       : rgb(0, 0, 0);
-  border-bottom-color: #010000;
 }
 
 nav ul {
