@@ -338,7 +338,7 @@ h3.text-blk {
 }
 
 .social-links-dpm a {
-  margin-bottom   : 110px;
+  /* margin-bottom   : 110px;
   margin          : 3rem;
   display         : wrap;
   position        : relative;
@@ -348,108 +348,31 @@ h3.text-blk {
   border-radius   : 20%;
   transition      : 1000ms;
   transition-delay: 2000ms;
-  animation-delay : 3000ms;
+  animation-delay : 3000ms; */
+  /* ======= */
+  border-radius: 25%;
+  display      : inline-block;
+  font-size    : 30px;
+  height       : 40px;
+  width        : 40px;
+  margin       : 20px;
+  margin-bottom: 10px;
+  text-align   : center;
+  line-height  : 40px;
+  border-radius: 25%;
+  color        : #00e5ff;
+  transition   : all 0.5s ease;
 }
 
-@media (max-width: 1024px) {
-  .contact_us_green .responsive-container-block.container {
-    justify-content: center;
-  }
 
-  .contact_us_green .text-blk.contactus-subhead {
-    max-width: 90%;
-  }
-
-  .contact_us_green .head-text-box {
-    display: block;
-  }
-
-  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-7.wk-ipadp-10.line {
-    padding-top   : 0px;
-    padding-right : 20px;
-    padding-bottom: 80px;
-    padding-left  : 0px;
-  }
-
-  .contact_us_green .line {
-    border-right-width : initial;
-    border-right-style : none;
-    border-right-color : initial;
-    border-bottom-width: 1.8px;
-    border-bottom-style: solid;
-    border-bottom-color: #a2a2a2;
-  }
-
-  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-5.wk-ipadp-10 {
-    margin-top   : 60px;
-    margin-right : 0px;
-    margin-bottom: 0px;
-    margin-left  : 0px;
-  }
-
-  .contact_us_green .workik-contact-bigbox {
-    display: flex;
-  }
-
-  .contact_us_green .responsive-cell-block.wk-tab-12.wk-mobile-12.wk-desk-5.wk-ipadp-10 {
-    padding-top   : 0px;
-    padding-right : 0px;
-    padding-bottom: 0px;
-    padding-left  : 0px;
-  }
+.social-links-dpm i.fa-brands:hover {
+  width: 40px;
+  height: 40px;
+  background-color: #adacac;
+  border-radius   : 25%;
 }
 
-@media (max-width: 768px) {
-  .contact_us_green .text-content {
-    display: none;
-  }
-
-  .contact_us_green .input {
-    width: 100%;
-  }
-
-  .contact_us_green .textinput {
-    width: 100%;
-  }
-
-  .contact_us_green .text-blk.contactus-head {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 500px) {
-  .contact_us_green .responsive-container-block.big-container {
-    padding-top   : 0px;
-    padding-right : 20px;
-    padding-bottom: 0px;
-    padding-left  : 20px;
-  }
-
-  .contact_us_green .workik-contact-bigbox {
-    display: block;
-  }
-
-  .contact_us_green .text-blk.input-title {
-    font-size: 16px;
-  }
-
-  .contact_us_green .text-blk.contactus-head {
-    font-size: 26px;
-  }
-
-  .contact_us_green .text-blk.contactus-subhead {
-    font-size  : 16px;
-    line-height: 23px;
-  }
-
-  .contact_us_green .input {
-    height: 45px;
-  }
-
-  .contact_us_green .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
-    margin: 0 0 25px 0;
-  }
-}
+/*  */
 
 /* CONTENT END---------------------------------------------- */
 /* --------------------------------------------------- */
