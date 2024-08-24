@@ -283,8 +283,8 @@ h1 span {
 }
 
 h5 {
-  margin-left    : 4rem;
-  margin-right   : 4rem;
+  margin-left    : 2rem;
+  margin-right   : 2rem;
   color          : rgb(0, 3, 5);
   animation-delay: 1000ms;
 }
