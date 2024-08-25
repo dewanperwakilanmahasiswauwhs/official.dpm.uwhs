@@ -402,7 +402,7 @@ body {
 .footer {
   background-color: #171717;
   padding         : 50px 0;
-  height          : 220px;
+  height          : 240px;
 }
 
 .footer-col {
@@ -426,7 +426,7 @@ body {
   height       : 40px;
   width        : 40px;
   margin       : 20px;
-  margin-bottom: 20px;
+  margin-bottom: 7px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;
