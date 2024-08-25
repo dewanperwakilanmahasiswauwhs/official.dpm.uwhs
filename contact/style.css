@@ -269,13 +269,15 @@ p {
 
 /* CONTENT---------------------------------------------- */
 h2.heading {
-  padding-top: 7rem;
-  color      : #ffffff;
+  padding-top    : 7rem;
+  color          : #040404;
+  animation-delay: 1000ms;
 }
 
 h3.animate__animated {
-  padding-top: 2rem;
-  color      : #ffffff;
+  padding-top    : 2rem;
+  color          : #000000;
+  animation-delay: 2000ms;
 }
 
 .phone1 {
@@ -306,10 +308,12 @@ h3.animate__animated {
 
 .phone1 p {
   font-size: 18px;
+  color    : #000000;
 }
 
 .phone2 p {
   font-size: 18px;
+  color    : #000000;
 }
 
 .mail i {

@@ -277,14 +277,15 @@ h1 span {
 h4 {
   margin-left    : 2rem;
   margin-right   : 2rem;
-  color          : #00322d;
+  color          : #00302c;
   animation-delay: 1000ms;
 }
 
 p {
+  font-size   : 17px;
   margin-left : 15px;
   margin-right: 15px;
-  color       : rgb(0, 0, 0);
+  color       : rgb(220, 220, 220);
 }
 
 p.misi {

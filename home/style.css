@@ -262,7 +262,7 @@ nav ul.slide {
 /* HEADING */
 h4.content {
   text-decoration: underline;
-  color          : #010000;
+  color          : rgb(220, 220, 220);
 }
 
 center h1 {

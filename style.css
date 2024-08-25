@@ -264,7 +264,7 @@ nav ul.slide {
 /* HEADING */
 h4.content {
   text-decoration: underline;
-  color          : #010000;
+  color          : rgb(220, 220, 220);
 }
 
 center h1 {
@@ -285,7 +285,7 @@ h1 span {
 h5 {
   margin-left    : 2rem;
   margin-right   : 2rem;
-  color          : rgb(0, 3, 5);
+  color          : rgb(220, 220, 220);
   animation-delay: 1000ms;
 }
 
