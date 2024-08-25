@@ -296,18 +296,6 @@ h3.animate__animated {
   animation-delay: 2s;
 }
 
-
-.mail {
-  display        : flex;
-  position       : relative;
-  justify-content: center;
-  align-items    : start;
-  font-size      : 18px;
-  margin         : 7px;
-  transition     : 3s;
-  animation-delay: 2s;
-}
-
 .phone1 i {
   font-size: 25px;
 }
@@ -329,8 +317,12 @@ h3.animate__animated {
 }
 
 .mail p {
-  font-size    : 18px;
-  margin-bottom: 110px;
+  font-size: 18px;
+}
+
+.mail {
+  display        : flex;
+  justify-content: center;
 }
 
 /* ============================================ */
@@ -344,6 +336,7 @@ h3.animate__animated {
   border-radius  : 25%;
   transition     : all 0.5s ease;
   animation-delay: 3000ms;
+  padding-bottom : 100px;
 }
 
 .social-links-dpm a.ig i {
@@ -351,7 +344,8 @@ h3.animate__animated {
 }
 
 .social-links-dpm a.mail i {
-  color: rgb(157, 157, 128);
+  font-size: 29px;
+  color    : rgb(157, 157, 128);
 }
 
 .social-links-dpm a.wa i {
@@ -412,7 +406,7 @@ body {
 }
 
 .footer-col h4 {
-  font-size  : 18px;
+  font-size  : 12px;
   color      : #ffffff;
   font-weight: 500;
   position   : relative;
