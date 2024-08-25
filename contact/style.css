@@ -259,24 +259,7 @@ nav ul.slide {
 }
 
 
-/* HEADING */
-
-center h1 {
-  color        : #7b0b03;
-  font-family  : "acme", cursive;
-  margin-top   : 50px;
-  margin-bottom: 10px;
-  margin-left  : 25px;
-  margin-right : 25px;
-  font-weight  : 900;
-  font-size    : 20px;
-}
-
-h2 {
-  padding: 0;
-  margin : 0;
-}
-
+/* HEADING======================================= */
 p {
   margin-left : 5px;
   margin-right: 5px;
@@ -285,24 +268,30 @@ p {
 }
 
 /* CONTENT---------------------------------------------- */
-h2.Heading {
-  padding    : 5rem;
+h2.heading {
   padding-top: 7rem;
-  color      : #6e0000;
+  color      : #ffffff;
 }
 
-h3.text-blk {
-  padding: 0;
+h3.animate__animated {
+  padding-top: 2rem;
+  color      : #ffffff;
 }
 
-.phone {
+.phone1 {
   display        : flex;
   position       : relative;
   justify-content: center;
-  margin         : 7px;
-  margin-top     : 30px;
-  margin-bottom  : 10px;
-  padding-top    : 1rem;
+  padding-top    : 20px;
+  transition     : 3s;
+  animation-delay: 2s;
+}
+
+.phone2 {
+  display        : flex;
+  position       : relative;
+  justify-content: center;
+  padding-top    : 5px;
   transition     : 3s;
   animation-delay: 2s;
 }
@@ -312,19 +301,26 @@ h3.text-blk {
   display        : flex;
   position       : relative;
   justify-content: center;
+  align-items    : start;
   font-size      : 18px;
   margin         : 7px;
-  margin-bottom  : 10px;
-  padding-bottom : 5rem;
   transition     : 3s;
   animation-delay: 2s;
 }
 
-.phone i {
+.phone1 i {
   font-size: 25px;
 }
 
-.phone p {
+.phone2 i {
+  font-size: 25px;
+}
+
+.phone1 p {
+  font-size: 18px;
+}
+
+.phone2 p {
   font-size: 18px;
 }
 
@@ -337,42 +333,40 @@ h3.text-blk {
   margin-bottom: 110px;
 }
 
+/* ============================================ */
 .social-links-dpm a {
-  /* margin-bottom   : 110px;
-  margin          : 3rem;
-  display         : wrap;
-  position        : relative;
-  justify-content : space-around;
-  align-items     : center;
-  font-size       : 30px;
-  border-radius   : 20%;
-  transition      : 1000ms;
-  transition-delay: 2000ms;
-  animation-delay : 3000ms; */
-  /* ======= */
-  border-radius: 25%;
-  display      : inline-block;
-  font-size    : 30px;
-  height       : 40px;
-  width        : 40px;
-  margin       : 20px;
-  margin-bottom: 10px;
-  text-align   : center;
-  line-height  : 40px;
-  border-radius: 25%;
-  color        : #00e5ff;
-  transition   : all 0.5s ease;
+  border-radius  : 25%;
+  display        : inline-block;
+  font-size      : 30px;
+  margin         : 3rem;
+  text-align     : center;
+  line-height    : 40px;
+  border-radius  : 25%;
+  transition     : all 0.5s ease;
+  animation-delay: 3000ms;
 }
 
+.social-links-dpm a.ig i {
+  color: rgb(232, 1, 109);
+}
+
+.social-links-dpm a.mail i {
+  color: rgb(157, 157, 128);
+}
+
+.social-links-dpm a.wa i {
+  color: rgb(0, 193, 48);
+}
 
 .social-links-dpm i.fa-brands:hover {
-  width: 40px;
-  height: 40px;
-  background-color: #adacac;
-  border-radius   : 25%;
+  color: #000000;
 }
 
-/*  */
+.social-links-dpm a i.fa-regular:hover {
+  color: #000000;
+}
+
+/* =========================================== */
 
 /* CONTENT END---------------------------------------------- */
 /* --------------------------------------------------- */
