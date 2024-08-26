@@ -291,9 +291,12 @@ h5 {
 
 /* STRUKTUR ORGANISASI */
 .animate__animated .struktur {
-  display         : flexbox;
-  height          : 720px;
-  margin-bottom   : 50px;
+  display      : flexbox;
+  height       : 450px;
+  margin-left  : 25px;
+  margin-right : 25px;
+  margin-bottom: 50px;
+
   animation-delay : 3500ms;
   transition-delay: 3500ms;
 }
