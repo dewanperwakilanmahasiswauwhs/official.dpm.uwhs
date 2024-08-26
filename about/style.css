@@ -280,11 +280,12 @@ h1 span {
   color: #00322d;
 }
 
-h5 {
+h5.animate__animated {
   margin-left    : 15px;
   margin-right   : 15px;
   color          : rgb(0, 3, 5);
   animation-delay: 1500ms;
+  bottom         : 0;
 }
 
 /* CONTENT-------------------------------------------------- */
@@ -296,7 +297,7 @@ h5 {
 }
 
 .container-group img {
-  margin-top      : 15px;
+  margin-bottom   : 20px;
   transition      : 3000ms;
   transition-delay: 1000ms;
 }
