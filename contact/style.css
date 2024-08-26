@@ -275,7 +275,7 @@ h2.heading {
 }
 
 h3.animate__animated {
-  padding-top    : 2rem;
+  padding-top    : 10px;
   color          : #000000;
   animation-delay: 2000ms;
 }
@@ -284,7 +284,7 @@ h3.animate__animated {
   display        : flex;
   position       : relative;
   justify-content: center;
-  padding-top    : 20px;
+  padding-top    : 10px;
   transition     : 3s;
   animation-delay: 2s;
 }
@@ -340,7 +340,7 @@ h3.animate__animated {
   border-radius  : 25%;
   transition     : all 0.5s ease;
   animation-delay: 3000ms;
-  padding-bottom : 100px;
+  margin-bottom  : 100px;
 }
 
 .social-links-dpm a.ig i {
@@ -371,7 +371,7 @@ h3.animate__animated {
 /* FOOTER */
 body {
   line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'acme', sans-serif;
 }
 
 * {
@@ -386,7 +386,7 @@ body {
 }
 
 .footer .container p {
-  color: #3e3e3e;
+  color: #545454;
 }
 
 .row {
@@ -398,18 +398,16 @@ body {
 
 
 .footer {
+  position        : absolute;
   background-color: #171717;
-  padding         : 50px 0;
-  height          : 240px;
+  padding         : 25px;
+  height          : 210px;
+  width           : 100%;
+  bottom          : 0px;
 }
 
-.footer-col {
-  background-color: #171717;
-  width           : 35%;
-  padding         : 0 15px;
-}
 
-.footer-col h4 {
+h4 {
   font-size  : 12px;
   color      : #ffffff;
   font-weight: 500;
@@ -418,13 +416,16 @@ body {
 
 /*  */
 
-.footer-col .social-links-me a {
+.social-links-me {
+  width: 100%;
+}
+
+footer.footer .row .social-links-me i {
   display      : inline-block;
   font-size    : 20px;
   height       : 40px;
   width        : 40px;
   margin       : 20px;
-  margin-bottom: 7px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;

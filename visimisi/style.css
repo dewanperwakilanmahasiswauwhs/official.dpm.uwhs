@@ -274,7 +274,8 @@ h1 span {
   color: #00322d;
 }
 
-h4 {
+h4.animate__animated {
+  font-size      : 23px;
   margin-left    : 2rem;
   margin-right   : 2rem;
   color          : #00302c;
@@ -285,7 +286,7 @@ p {
   font-size   : 17px;
   margin-left : 15px;
   margin-right: 15px;
-  color          : rgb(243, 243, 243);
+  color       : rgb(243, 243, 243);
 }
 
 p.misi {
@@ -293,11 +294,11 @@ p.misi {
 }
 
 /* --------------------------------------------------- */
-/* FOOTER */
 /* --------------------------------------------------- */
+/* FOOTER */
 body {
   line-height: 1.5;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'acme', sans-serif;
 }
 
 * {
@@ -306,36 +307,33 @@ body {
   box-sizing: border-box;
 }
 
-div.container {
+.container {
   max-width: 1170px;
   margin   : auto;
 }
 
 .footer .container p {
-  color: #3e3e3e;
+  color: #545454;
 }
 
 .row {
-  padding-top     : 25px;
+  padding-top     : 10px;
   display         : flex;
   flex-wrap       : wrap;
   background-color: #171717;
 }
 
 
-footer.footer {
+.footer {
+  position        : absolute;
   background-color: #171717;
-  padding         : 50px 0;
-  height          : 240px;
+  padding         : 25px;
+  height          : 210px;
+  width           : 100%;
 }
 
-.footer-col {
-  background-color: #171717;
-  width           : 35%;
-  padding         : 0 15px;
-}
 
-.footer-col h4 {
+h4 {
   font-size  : 12px;
   color      : #ffffff;
   font-weight: 500;
@@ -344,13 +342,16 @@ footer.footer {
 
 /*  */
 
-.footer-col .social-links-me a {
+.social-links-me {
+  width: 100%;
+}
+
+footer.footer .row .social-links-me i {
   display      : inline-block;
   font-size    : 20px;
   height       : 40px;
   width        : 40px;
   margin       : 20px;
-  margin-bottom: 7px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;
@@ -368,7 +369,7 @@ footer.footer {
 /*responsive*/
 @media(max-width: 767px) {
   .footer-col {
-    width        : 50%;
+    width        : 10%;
     margin-bottom: 30px;
   }
 }
