@@ -362,7 +362,7 @@ h4 {
   width: 100%;
 }
 
-footer.footer .row .social-links-me i {
+.social-links-me i {
   display      : inline-block;
   font-size    : 20px;
   height       : 40px;
@@ -375,7 +375,7 @@ footer.footer .row .social-links-me i {
   transition   : all 0.5s ease;
 }
 
-.footer-col .social-links-me a:hover {
+  .social-links-me i:hover {
   color           : #000000;
   background-color: #9b9a9a;
 }
