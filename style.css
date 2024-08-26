@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #606060;
+  background-color: #5b5b5b;
 }
 
 /* Navnbar */
@@ -288,6 +288,17 @@ h5 {
   color          : rgb(243, 243, 243);
   animation-delay: 1000ms;
 }
+
+/* STRUKTUR ORGANISASI */
+.animate__animated .struktur {
+  display         : flexbox;
+  height          : 720px;
+  margin-bottom   : 50px;
+  animation-delay : 3500ms;
+  transition-delay: 3500ms;
+}
+
+/* STRUKTUR ORGANISASI */
 
 p {
   margin-left : 2rem;
