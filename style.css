@@ -291,8 +291,12 @@ span.line {
 }
 
 a.link {
+  color: #0000FF;
+}
+
+a.link:hover{
   color: #FFFF00;
-}  
+}
 
 .feed1 img {
   justify-content : center;
