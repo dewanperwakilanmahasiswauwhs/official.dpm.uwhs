@@ -291,11 +291,11 @@ span.line {
 }
 
 a.link {
-  color: lightblue;
+  color: aqua;
 }
 
 a.link:hover{
-  color: #FFFF00;
+  color: #00008B;
 }
 
 .feed1 img {
