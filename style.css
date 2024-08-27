@@ -290,6 +290,10 @@ span.line {
   margin-bottom: 20px;
 }
 
+a.link {
+  color: #FFFF00;
+}  
+
 .feed1 img {
   justify-content : center;
   width           : 20rem;
