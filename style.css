@@ -290,31 +290,31 @@ h5 {
 }
 
 /* FEED =========================== */
-.feed1 img {
-  width        : 490px;
-  margin-left  : 15px;
-  margin-right : 15px;
-  margin-bottom: 50px;
-
-  animation-delay : 3500ms;
-  transition-delay: 3500ms;
-}
-
 span.line {
   display      : flex;
   border-style : ridge;
   color        : #ffffff;
-  width        : 490px;
+  width        : 15rem;
   height       : 2px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.feed1 img {
+  justify-content : center;
+  width           : 20rem;
+  margin-left     : 15px;
+  margin-right    : 15px;
+  margin-bottom   : 20px;
+  animation-delay : 3500ms;
+  transition-delay: 3500ms;
 }
 
 .feed img {
-  height       : 870px;
-  margin-left  : 15px;
-  margin-right : 15px;
-  margin-bottom: 50px;
-
+  justify-content : center;
+  width           : 20rem;
+  margin-left     : 15px;
+  margin-right    : 15px;
+  margin-bottom   : 50px;
   animation-delay : 3500ms;
   transition-delay: 3500ms;
 }
@@ -322,19 +322,20 @@ span.line {
 /* FEED =========================== */
 /* STRUKTUR ORGANISASI===================== */
 h4.title {
-  font-size      : 20px;
   text-decoration: underline;
+  font-size      : 20px;
   margin-bottom  : 15px;
   color          : rgb(0, 202, 185);
 }
 
 .animate__animated .struktur {
-  height          : 490px;
-  margin-left     : 15px;
-  margin-right    : 15px;
-  margin-bottom   : 50px;
-  animation-delay : 3500ms;
-  transition-delay: 3500ms;
+  justify-content    : center;
+  height             : 30rem;
+  /* margin-left     : 15px;
+  margin-right       : 15px; */
+  margin-bottom      : 50px;
+  animation-delay    : 3500ms;
+  transition-delay   : 3500ms;
 }
 
 /* STRUKTUR ORGANISASI========================= */
