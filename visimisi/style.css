@@ -84,7 +84,7 @@ nav ul li a {
 nav ul li a:hover {
   color                : rgb(0, 202, 185);
   text-decoration      : underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: rgb(0, 202, 185);
   text-underline-offset: 10px;
   transition           : 500ms;
 }
