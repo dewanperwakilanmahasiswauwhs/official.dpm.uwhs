@@ -91,6 +91,7 @@ nav ul li a:hover {
 
 nav ul li a.active {
   font-size            : 12px;
+  text-decoration      : underline;
   text-decoration-color: #ffffff;
   color                : rgb(0, 202, 185);
   text-underline-offset: 10px;
