@@ -290,19 +290,13 @@ span.line {
   margin-bottom: 20px;
 }
 
-a.link {
-  color: rgb(0, 0, 0);
+button.btn a {
+  text-decoration: none;
+  color          : #040404;
 }
 
-a.link:hover {
-  color        : #00008B;
-  /* transform : translateY(-10px);
-  transition   : 700ms; */
-}
-
-button.btn {
-  margin-bottom: 30px;
-  color        : #040404;
+.btn a:hover {
+  color: #00e5ff;
 }
 
 .feed-1 img {
@@ -313,6 +307,7 @@ button.btn {
   margin-bottom   : 20px;
   animation-delay : 3500ms;
   transition-delay: 3500ms;
+  margin-top      : 30px;
 }
 
 .feed img {
