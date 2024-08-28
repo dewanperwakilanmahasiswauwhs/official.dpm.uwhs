@@ -290,15 +290,17 @@ span.line {
   margin-bottom: 20px;
 }
 
-a.link {
+a.link p {
   color: aqua;
 }
 
-a.link:hover{
-  color: #00008B;
+a.link p:hover {
+  color     : #00008B;
+  transform : translateY(-10px);
+  transition: 700ms;
 }
 
-.feed1 img {
+.feed-1 img {
   justify-content : center;
   width           : 20rem;
   margin-left     : 15px;
@@ -306,7 +308,7 @@ a.link:hover{
   margin-bottom   : 20px;
   animation-delay : 3500ms;
   transition-delay: 3500ms;
-  margin-top      : 20px;
+  margin-top      : 5px;
 }
 
 .feed img {
