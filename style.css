@@ -290,14 +290,19 @@ span.line {
   margin-bottom: 20px;
 }
 
-a.link p {
-  color: aqua;
+a.link {
+  color: rgb(0, 0, 0);
 }
 
-a.link p:hover {
-  color     : #00008B;
-  transform : translateY(-10px);
-  transition: 700ms;
+a.link:hover {
+  color        : #00008B;
+  /* transform : translateY(-10px);
+  transition   : 700ms; */
+}
+
+button.btn {
+  margin-bottom: 30px;
+  color        : #040404;
 }
 
 .feed-1 img {
