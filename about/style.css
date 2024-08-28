@@ -320,7 +320,8 @@ body {
 }
 
 .footer .container p {
-  color: #545454;
+  font-size: 15px;
+  color    : #545454;
 }
 
 .row {
