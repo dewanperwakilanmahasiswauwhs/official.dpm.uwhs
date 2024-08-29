@@ -36,7 +36,7 @@ nav .logo img {
 h3 {
   color          : aliceblue;
   font-size      : 18px;
-  margin-top     : 3px;
+  margin-top     : 4px;
   padding-top    : 7px;
   align-items    : center;
   justify-content: center;
@@ -54,7 +54,7 @@ nav {
   align-items        : center;
   height             : 60px;
   width              : 100%;
-  border-bottom-style: solid;
+  border-bottom-style: ridge;
   border-color       : rgb(0, 0, 0);
 }
 
@@ -84,13 +84,14 @@ nav ul li a {
 nav ul li a:hover {
   color                : rgb(0, 202, 185);
   text-decoration      : underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: rgb(0, 202, 185);
   text-underline-offset: 10px;
   transition           : 500ms;
 }
 
 nav ul li a.active {
   font-size            : 12px;
+  text-decoration      : underline;
   text-decoration-color: #ffffff;
   color                : rgb(0, 202, 185);
   text-underline-offset: 10px;
@@ -126,7 +127,7 @@ nav ul li a.active {
   margin-bottom        : 0.5px;
   width                : 25px;
   height               : 3.5px;
-  background-color     : rgb(63, 2, 2);
+  background-color     : rgb(255, 255, 255);
   transition           : 0.3s;
   -webkit-transition   : 0.3s;
   -moz-transition      : 0.3s;
@@ -139,7 +140,7 @@ nav ul li a.active {
   -o-border-radius     : 3px;
   border-style         : inset;
   border-width         : 1px;
-  border-color         : rgb(242, 242, 242);
+  border-color         : rgb(0, 238, 255);
 }
 
 /* Animation Menu */
@@ -381,7 +382,8 @@ body {
 }
 
 .footer .container p {
-  color: #545454;
+  font-size: 15px;
+  color    : #545454;
 }
 
 .row {
@@ -398,7 +400,7 @@ body {
   padding         : 25px;
   height          : 210px;
   width           : 100%;
-  bottom          : 0rem;
+  bottom          : 0;
 }
 
 
