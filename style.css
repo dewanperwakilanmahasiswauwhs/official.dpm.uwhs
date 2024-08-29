@@ -300,7 +300,7 @@ span.line {
   transition-delay: 3500ms;
 }
 
-.feed img {
+video {
   justify-content : center;
   width           : 20rem;
   margin-left     : 15px;
