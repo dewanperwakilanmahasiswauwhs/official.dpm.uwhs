@@ -261,8 +261,8 @@ p {
 
 /* CONTENT---------------------------------------------- */
 h2.heading {
-  padding-top    : 7rem;
-  color          : #040404;
+  padding-top    : 80px;
+  color          : #00dda2;
   animation-delay: 1000ms;
 }
 
@@ -333,6 +333,7 @@ h3.animate__animated {
   border-radius  : 25%;
   transition     : all 0.5s ease;
   animation-delay: 3000ms;
+  margin-bottom  : 20px;
 
 }
 
@@ -396,7 +397,7 @@ body {
 
 
 .footer {
-  position        : absolute;
+  position        : fixed;
   z-index         : 10px;
   background-color: #171717;
   padding         : 25px;
