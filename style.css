@@ -293,11 +293,11 @@ span.line {
 
 button.btn a {
   text-decoration: none;
-  color          : #00e5ff;
+  color          : #ffc800;
 }
 
 .btn a:hover {
-  color: #4c00ff;
+  color           : #00c8ff;
 }
 
 .feed-1 img {
@@ -316,7 +316,7 @@ video {
   width           : 20rem;
   margin-left     : 15px;
   margin-right    : 15px;
-  margin-bottom   : 50px;
+  margin-bottom   : 40px;
   animation-delay : 3500ms;
   transition-delay: 3500ms;
 }
@@ -324,10 +324,11 @@ video {
 /* FEED =========================== */
 /* STRUKTUR ORGANISASI===================== */
 h4.title {
-  text-decoration: underline;
-  font-size      : 20px;
-  margin-bottom  : 15px;
-  color          : rgb(0, 202, 185);
+  text-decoration      : underline;
+  text-underline-offset: 7px;
+  font-size            : 20px;
+  margin-bottom        : 20px;
+  color                : rgb(255, 255, 255);
 }
 
 .animate__animated .struktur {
