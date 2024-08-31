@@ -269,7 +269,7 @@ center h1 {
 }
 
 h1 span {
-  color: #00322d;
+  color: #00be7b;
 }
 
 h5.animate__animated {
@@ -337,7 +337,7 @@ body {
   position        : absolute;
   background-color: #171717;
   padding         : 25px;
-  height          : 160px;
+  height          : 180px;
   width           : 100%;
 }
 

@@ -260,7 +260,7 @@ h4.content {
 }
 
 center h1 {
-  color        : #7b0b03;
+  color        : #930a00;
   font-family  : "acme", cursive;
   margin-top   : 90px;
   margin-bottom: 25px;
@@ -451,17 +451,11 @@ body {
   color    : #545454;
 }
 
-/* .row {
-  display         : flex;
-  flex-wrap       : wrap;
-  background-color: #171717;
-} */
-
 .footer {
   position        : absolute;
   background-color: #171717;
   padding         : 25px;
-  height          : 160px;
+  height          : 180px;
   width           : 100%;
 }
 
