@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #5b5b5b;
+  background-color: #000000;
 }
 
 /* Navnbar */
@@ -271,7 +271,7 @@ center h1 {
 }
 
 h1 span {
-  color: #00322d;
+  color: #00beab;
 }
 
 h5 {
@@ -297,7 +297,7 @@ button.btn a {
 }
 
 .btn a:hover {
-  color           : #00c8ff;
+  color: #00c8ff;
 }
 
 .feed-1 img {
@@ -379,7 +379,7 @@ p {
 }
 
 .card-group {
-  background-color: #6d6c6c;
+  background-color: #000000;
   gap             : 25px;
   animation-delay : 1200ms;
   display         : flexbox;
@@ -451,18 +451,17 @@ body {
   color    : #545454;
 }
 
-.row {
-  padding-top     : 10px;
+/* .row {
   display         : flex;
   flex-wrap       : wrap;
   background-color: #171717;
-}
+} */
 
 .footer {
   position        : absolute;
   background-color: #171717;
   padding         : 25px;
-  height          : 210px;
+  height          : 160px;
   width           : 100%;
 }
 
@@ -485,7 +484,7 @@ h4 {
   font-size    : 20px;
   height       : 40px;
   width        : 40px;
-  margin       : 20px;
+  margin       : 10px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;

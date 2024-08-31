@@ -309,19 +309,19 @@ body {
   color    : #545454;
 }
 
-.row {
+/* .row {
   padding-top     : 10px;
   display         : flex;
   flex-wrap       : wrap;
   background-color: #171717;
-}
+} */
 
 
 .footer {
   position        : absolute;
   background-color: #171717;
   padding         : 25px;
-  height          : 210px;
+  height          : 160px;
   width           : 100%;
 }
 
@@ -344,7 +344,7 @@ h4 {
   font-size    : 20px;
   height       : 40px;
   width        : 40px;
-  margin       : 20px;
+  margin       : 10px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;
