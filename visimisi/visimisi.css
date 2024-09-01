@@ -8,7 +8,11 @@
 }
 
 body {
-  background-color: rgb(106, 106, 106);
+  background-color   : #363636;
+  background-image   : url(../asset/uwhs.jpg);
+  background-size    : 150vmax;
+  background-repeat  : repeat-y;
+  background-position: top;
 }
 
 /* Navnbar */
@@ -45,7 +49,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgb(121, 2, 2);
+  background-color   : rgba(0, 0, 0, 0.88);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -136,7 +140,7 @@ nav ul li a.active {
   -o-border-radius     : 3px;
   border-style         : inset;
   border-width         : 1px;
-  border-color         : rgb(0, 238, 255);
+  border-color         : rgb(251, 159, 0);
 }
 
 /* Animation Menu */
@@ -246,39 +250,48 @@ nav ul.slide {
   -o-transform     : translateX(0);
 }
 
-/* HEADING */
+/* HEADING=============================== */
+.section {
+  color           : rgb(243, 243, 243);
+  background-color: #000000c4;
+}
+
 center h1 {
-  color        : #7b0b03;
-  font-family  : "acme", cursive;
-  margin-top   : 90px;
-  margin-bottom: 25px;
-  margin-left  : 10px;
-  margin-right : 10px;
-  font-weight  : 900;
-  font-size    : 20px;
+  color         : #af0c00;
+  font-family   : "Anton", sans-serif;
+  letter-spacing: 1.5px;
+  padding-top   : 90px;
+  padding-bottom: 25px;
+  padding-left  : 10px;
+  padding-right : 10px;
+  font-weight   : 900;
+  font-size     : 20px;
 }
 
 h1 span {
-  color: #00322d;
+  color: #00d1bc;
 }
 
 h4.animate__animated {
   font-size      : 23px;
   margin-left    : 2rem;
   margin-right   : 2rem;
-  color          : #00302c;
+  color          : #00d1bc;
   animation-delay: 1000ms;
 }
 
 p {
   font-size   : 17px;
-  margin-left : 15px;
-  margin-right: 15px;
+  margin-left : 40px;
+  margin-right: 40px;
   color       : rgb(243, 243, 243);
 }
 
 p.misi {
-  padding-bottom: 100px;
+  padding-left  : 40px;
+  padding-right : 40px;
+  padding-bottom: 90px;
+  margin        : 0;
 }
 
 /* --------------------------------------------------- */
@@ -287,6 +300,7 @@ p.misi {
 body {
   line-height: 1.5;
   font-family: 'acme', sans-serif;
+
 }
 
 * {
@@ -296,7 +310,7 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   margin   : auto;
 }
 
@@ -305,16 +319,8 @@ body {
   color    : #545454;
 }
 
-/* .row {
-  padding-top     : 10px;
-  display         : flex;
-  flex-wrap       : wrap;
-  background-color: #171717;
-} */
-
-
 .footer {
-  position        : absolute;
+  position        : relative;
   background-color: #171717;
   padding         : 25px;
   height          : 180px;

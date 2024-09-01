@@ -8,7 +8,11 @@
 }
 
 body {
-  background-color: rgb(67, 67, 67);
+  background-color   : #363636;
+  background-image   : url(../asset/uwhs.jpg);
+  background-size    : 170vmax;
+  background-repeat  : repeat-y;
+  background-position: top;
 }
 
 /* Navnbar */
@@ -46,7 +50,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgb(121, 2, 2);
+  background-color   : rgba(0, 0, 0, 0.88);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -137,7 +141,7 @@ nav ul li a.active {
   -o-border-radius     : 3px;
   border-style         : inset;
   border-width         : 1px;
-  border-color         : rgb(0, 238, 255);
+  border-color         : rgb(251, 159, 0);
 }
 
 /* Animation Menu */
@@ -257,19 +261,36 @@ p {
 }
 
 /* CONTENT---------------------------------------------- */
+div.content {
+  color           : rgb(243, 243, 243);
+  background-color: #000000c4;
+}
+
 h2.heading {
+  display        : flex;
+  position       : relative;
+  justify-content: center;
+  color          : #00eca9;
   padding-top    : 80px;
-  color          : #e1bc00;
   animation-delay: 1000ms;
 }
 
 h3.animate__animated {
-  padding-top    : 10px;
-  color          : #000000;
+  display        : flex;
+  position       : relative;
+  justify-content: center;
+  padding-top    : 15px;
+  padding-bottom : 7px;
+  color          : #ffffff;
   animation-delay: 2000ms;
 }
 
-.phone1 {
+div.container-contact {
+  color: #ffffff;
+
+}
+
+.phone-1 {
   display        : flex;
   position       : relative;
   justify-content: center;
@@ -278,7 +299,7 @@ h3.animate__animated {
   animation-delay: 2s;
 }
 
-.phone2 {
+.phone-2 {
   display        : flex;
   position       : relative;
   justify-content: center;
@@ -287,22 +308,22 @@ h3.animate__animated {
   animation-delay: 2s;
 }
 
-.phone1 i {
+.phone-1 i {
   font-size: 25px;
 }
 
-.phone2 i {
+.phone-2 i {
   font-size: 25px;
 }
 
-.phone1 p {
+.phone-1 p {
   font-size: 18px;
-  color    : #000000;
+  color    : #ffffff;
 }
 
-.phone2 p {
+.phone-2 p {
   font-size: 18px;
-  color    : #000000;
+  color    : #ffffff;
 }
 
 .mail i {
@@ -320,27 +341,30 @@ h3.animate__animated {
 
 /* ============================================ */
 .social-links-dpm a {
-  justify-content: space-around;
-  display        : inline-block;
-  text-align     : center;
-  border-radius  : 25%;
-  font-size      : 30px;
-  margin         : 30px;
-  line-height    : 40px;
-  border-radius  : 25%;
-  transition     : all 0.5s ease;
-  animation-delay: 3000ms;
-  margin-bottom  : 20px;
+  justify-content    : center;
+  align-items        : center;
+  display            : inline-block;
+  font-size          : 30px;
+  line-height        : 40px;
+  border-radius      : 25px;
+  transition-delay   : 3000ms;
+  margin-bottom      : 0px;
+  /* background-color: #ffffff; */
+  margin-bottom      : 200px;
 
 }
 
 .social-links-dpm a.ig i {
   color: rgb(232, 1, 109);
+
 }
 
 .social-links-dpm a.mail i {
-  font-size: 29px;
-  color    : rgb(157, 157, 128);
+  margin-top  : 30px;
+  margin-left : 100px;
+  margin-right: 100px;
+  font-size   : 29px;
+  color       : rgb(157, 157, 128);
 }
 
 .social-links-dpm a.wa i {
@@ -350,13 +374,13 @@ h3.animate__animated {
 .social-links-dpm i.fa-brands:hover {
   transform : translateY(-10px);
   transition: 500ms;
-  color     : #000000;
+  color     : #ffffff;
 }
 
 .social-links-dpm a i.fa-regular:hover {
   transform : translateY(-10px);
   transition: 500ms;
-  color     : #000000;
+  color     : #ffffff;
 }
 
 /* ===============z============================ */
@@ -393,7 +417,6 @@ body {
 } */
 
 .footer {
-  position        : fixed;
   z-index         : 10px;
   background-color: #171717;
   padding         : 25px;

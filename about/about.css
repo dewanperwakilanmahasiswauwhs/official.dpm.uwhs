@@ -8,7 +8,11 @@
 }
 
 body {
-  background-color: #636363;
+  background-color   : #363636;
+  background-image   : url(../asset/uwhs.jpg);
+  background-size    : 170vmax;
+  background-repeat  : repeat-y;
+  background-position: top;
 }
 
 /* Navnbar */
@@ -45,7 +49,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgb(121, 2, 2);
+  background-color   : rgba(0, 0, 0, 0.88);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -136,7 +140,7 @@ nav ul li a.active {
   -o-border-radius     : 3px;
   border-style         : inset;
   border-width         : 1px;
-  border-color         : rgb(0, 238, 255);
+  border-color         : rgb(251, 159, 0);
 }
 
 /* Animation Menu */
@@ -247,13 +251,18 @@ nav ul.slide {
 }
 
 /* HEADING */
+.section {
+  color           : rgb(243, 243, 243);
+  background-color: #000000c4;
+}
+
 h4.content {
   text-decoration: underline;
   color          : #010000;
 }
 
 center h1 {
-  color          : #7b0b03;
+  color          : #b70c00;
   font-family    : "acme", cursive;
   margin-top     : 60px;
   margin-bottom  : 25px;
@@ -265,26 +274,31 @@ center h1 {
 }
 
 h1 span {
-  color: #00beab;
+  color      : #00beab;
+  font-family: 'Amarant', sans-serif;
+  font-size  : 17px;
 }
 
 h5.animate__animated {
+  color          : rgb(243, 243, 243);
   margin-left    : 15px;
   margin-right   : 15px;
-  color          : rgb(0, 3, 5);
   animation-delay: 1500ms;
-  bottom         : 0;
+  margin         : 0;
+  padding-bottom : 30px;
 }
 
 /* CONTENT-------------------------------------------------- */
 .container-group {
-  margin-left     : 30px;
-  margin-right    : 30px;
-  padding-bottom  : 100px;
-  background-color: #636363;
+  padding-left    : 30px;
+  padding-right   : 30px;
+  padding-bottom  : 40px;
+  background-color: #000000c4;
 }
 
 .container-group img {
+  margin          : 0;
+  background-color: #000000c4;
   margin-bottom   : 20px;
   transition      : 3000ms;
   transition-delay: 1000ms;

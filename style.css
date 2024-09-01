@@ -50,14 +50,13 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgba(0, 0, 0, 0.811);
+  background-color   : rgba(0, 0, 0, 0.88);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
   width              : 100%;
   border-bottom-style: ridge;
   border-color       : rgb(0, 0, 0);
-
 }
 
 nav ul {
@@ -143,7 +142,7 @@ nav ul li a.active {
   -o-border-radius     : 3px;
   border-style         : inset;
   border-width         : 1px;
-  border-color         : rgb(0, 238, 255);
+  border-color         : rgb(251, 159, 0);
 }
 
 /* Animation Menu */
