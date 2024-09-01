@@ -279,8 +279,8 @@ center h1 {
 h1 span {
   color         : #930a00;
   font-family   : 'Anton', sans-serif;
-  font-size     : 20px;
-  letter-spacing: 2px;
+  font-size     : 18px;
+  letter-spacing: 1.5px;
 }
 
 h5 {
