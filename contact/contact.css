@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Boogaloo&family=Candal&family=Carter+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script:wght@400;700&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Boogaloo&family=Candal&family=Carter+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script:wght@400;700&family=Pirata+One&family=Protest+Strike&display=swap');
 
 * {
   margin        : 0;
@@ -215,7 +215,7 @@ nav ul li a.active {
     margin-top        : 60px;
     height            : 100vh;
     z-index           : 1;
-    width             : 90%;
+    width             : 60%;
     right             : 0;
     top               : 0;
     transform         : translateX(100%);

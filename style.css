@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Boogaloo&family=Candal&family=Carter+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script:wght@400;700&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Boogaloo&family=Candal&family=Carter+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script:wght@400;700&family=Pirata+One&family=Protest+Strike&display=swap');
 
 * {
   margin        : 0;
@@ -8,7 +8,11 @@
 }
 
 body {
-  background-color: #000000;
+  background-color   : #363636;
+  background-image   : url(asset/uwhs.jpg);
+  background-size    : 170vmax;
+  background-repeat  : repeat-y;
+  background-position: top;
 }
 
 /* Navnbar */
@@ -46,7 +50,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgb(121, 2, 2);
+  background-color   : rgba(0, 0, 0, 0.811);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -217,7 +221,7 @@ nav ul li a.active {
     margin-top        : 60px;
     height            : 100vh;
     z-index           : 1;
-    width             : 90%;
+    width             : 60%;
     right             : 0;
     top               : 0;
     transform         : translateX(100%);
@@ -251,6 +255,11 @@ nav ul.slide {
 
 
 /* HEADING */
+div.section {
+  color           : rgb(243, 243, 243);
+  background-color: #000000be;
+}
+
 h4.content {
   text-decoration: underline;
   color          : rgb(243, 243, 243);
@@ -259,25 +268,31 @@ h4.content {
 center h1 {
   color        : #00beab;
   font-family  : 'Oleo Script', sans-serif;
-  margin-top   : 90px;
+  padding-top  : 90px;
   margin-bottom: 25px;
   margin-left  : 25px;
   margin-right : 25px;
   font-weight  : 900;
-  font-size    : 20px;
+  font-size    : 18px;
 }
 
 h1 span {
-  color      : #930a00;
-  font-family: 'Boogaloo', sans-serif;
-  font-size  : 22px;
+  color         : #930a00;
+  font-family   : 'Anton', sans-serif;
+  font-size     : 20px;
+  letter-spacing: 2px;
 }
 
 h5 {
-  margin-left    : 2rem;
-  margin-right   : 2rem;
-  color          : rgb(243, 243, 243);
-  animation-delay: 1000ms;
+  color              : rgb(243, 243, 243);
+  /* background-color: #000000b1; */
+  margin-left        : 2rem;
+  padding-left       : 1rem;
+  margin-right       : 2rem;
+  padding-right      : 1rem;
+  border-radius      : 15px;
+  font-size          : 15px;
+  animation-delay    : 1000ms;
 }
 
 /* FEED =========================== */
