@@ -50,7 +50,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgba(0, 0, 0, 0.88);
+  background-color   : rgba(0, 0, 0, 0.694);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
