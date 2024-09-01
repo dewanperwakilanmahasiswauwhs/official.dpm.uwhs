@@ -50,14 +50,13 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgba(0, 0, 0, 0.811);
+  background-color   : rgba(0, 0, 0, 0.88);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
   width              : 100%;
   border-bottom-style: ridge;
   border-color       : rgb(0, 0, 0);
-
 }
 
 nav ul {
@@ -143,7 +142,7 @@ nav ul li a.active {
   -o-border-radius     : 3px;
   border-style         : inset;
   border-width         : 1px;
-  border-color         : rgb(0, 238, 255);
+  border-color         : rgb(251, 159, 0);
 }
 
 /* Animation Menu */
@@ -279,8 +278,8 @@ center h1 {
 h1 span {
   color         : #930a00;
   font-family   : 'Anton', sans-serif;
-  font-size     : 20px;
-  letter-spacing: 2px;
+  font-size     : 18px;
+  letter-spacing: 1.5px;
 }
 
 h5 {
@@ -393,7 +392,7 @@ p {
 }
 
 .card-group {
-  background-color: #000000;
+  background-color: #000000c4;
   gap             : 25px;
   animation-delay : 1200ms;
   display         : flexbox;
@@ -469,7 +468,7 @@ body {
   position        : absolute;
   background-color: #171717;
   padding         : 25px;
-  height          : 180px;
+  height          : 185px;
   width           : 100%;
 }
 
