@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Atma:wght@600&family=Racing+Sans+One&display=swap');
-/* font 2 */
-@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Anton&family=Black+Han+Sans&family=Edu+NSW+ACT+Foundation:wght@700&family=Lilita+One&family=Pacifico&family=Passion+One&family=Satisfy&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Boogaloo&family=Candal&family=Carter+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script:wght@400;700&family=Pirata+One&family=Protest+Strike&display=swap');
 
 * {
   margin        : 0;
   padding       : 0;
-  font-family   : 'acme', sans-serif;
+  font-family   : 'amaranth', sans-serif;
   letter-spacing: 1px;
 }
 
 body {
-  background-color: #5b5b5b;
+  background-color   : #363636;
+  background-image   : url(asset/uwhs.jpg);
+  background-size    : 170vmax;
+  background-repeat  : repeat-y;
+  background-position: top;
 }
 
 /* Navnbar */
@@ -35,6 +35,7 @@ nav .logo img {
 
 h3 {
   color          : aliceblue;
+  font-family    : 'acme', sans-serif;
   font-size      : 18px;
   margin-top     : 4px;
   padding-top    : 7px;
@@ -49,7 +50,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgb(121, 2, 2);
+  background-color   : rgba(0, 0, 0, 0.811);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -220,7 +221,7 @@ nav ul li a.active {
     margin-top        : 60px;
     height            : 100vh;
     z-index           : 1;
-    width             : 90%;
+    width             : 60%;
     right             : 0;
     top               : 0;
     transform         : translateX(100%);
@@ -254,31 +255,44 @@ nav ul.slide {
 
 
 /* HEADING */
+div.section {
+  color           : rgb(243, 243, 243);
+  background-color: #000000be;
+}
+
 h4.content {
   text-decoration: underline;
   color          : rgb(243, 243, 243);
 }
 
 center h1 {
-  color        : #7b0b03;
-  font-family  : "acme", cursive;
-  margin-top   : 90px;
+  color        : #00beab;
+  font-family  : 'Oleo Script', sans-serif;
+  padding-top  : 90px;
   margin-bottom: 25px;
   margin-left  : 25px;
   margin-right : 25px;
   font-weight  : 900;
-  font-size    : 20px;
+  font-size    : 18px;
 }
 
 h1 span {
-  color: #00322d;
+  color         : #930a00;
+  font-family   : 'Anton', sans-serif;
+  font-size     : 18px;
+  letter-spacing: 1.5px;
 }
 
 h5 {
-  margin-left    : 2rem;
-  margin-right   : 2rem;
-  color          : rgb(243, 243, 243);
-  animation-delay: 1000ms;
+  color              : rgb(243, 243, 243);
+  /* background-color: #000000b1; */
+  margin-left        : 2rem;
+  padding-left       : 1rem;
+  margin-right       : 2rem;
+  padding-right      : 1rem;
+  border-radius      : 15px;
+  font-size          : 15px;
+  animation-delay    : 1000ms;
 }
 
 /* FEED =========================== */
@@ -293,11 +307,11 @@ span.line {
 
 button.btn a {
   text-decoration: none;
-  color          : #00e5ff;
+  color          : #ffc800;
 }
 
 .btn a:hover {
-  color: #4c00ff;
+  color: #00c8ff;
 }
 
 .feed-1 img {
@@ -311,12 +325,12 @@ button.btn a {
   margin-top      : 30px;
 }
 
-.feed img {
+video {
   justify-content : center;
   width           : 20rem;
   margin-left     : 15px;
   margin-right    : 15px;
-  margin-bottom   : 50px;
+  margin-bottom   : 40px;
   animation-delay : 3500ms;
   transition-delay: 3500ms;
 }
@@ -324,10 +338,11 @@ button.btn a {
 /* FEED =========================== */
 /* STRUKTUR ORGANISASI===================== */
 h4.title {
-  text-decoration: underline;
-  font-size      : 20px;
-  margin-bottom  : 15px;
-  color          : rgb(0, 202, 185);
+  text-decoration      : underline;
+  text-underline-offset: 7px;
+  font-size            : 20px;
+  margin-bottom        : 20px;
+  color                : rgb(255, 255, 255);
 }
 
 .animate__animated .struktur {
@@ -378,7 +393,7 @@ p {
 }
 
 .card-group {
-  background-color: #6d6c6c;
+  background-color: #000000;
   gap             : 25px;
   animation-delay : 1200ms;
   display         : flexbox;
@@ -450,18 +465,11 @@ body {
   color    : #545454;
 }
 
-.row {
-  padding-top     : 10px;
-  display         : flex;
-  flex-wrap       : wrap;
-  background-color: #171717;
-}
-
 .footer {
   position        : absolute;
   background-color: #171717;
   padding         : 25px;
-  height          : 210px;
+  height          : 180px;
   width           : 100%;
 }
 
@@ -484,7 +492,7 @@ h4 {
   font-size    : 20px;
   height       : 40px;
   width        : 40px;
-  margin       : 20px;
+  margin       : 10px;
   text-align   : center;
   line-height  : 40px;
   border-radius: 25%;
