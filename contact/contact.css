@@ -10,7 +10,7 @@
 body {
   background-color   : #363636;
   background-image   : url(../asset/uwhs.jpg);
-  background-size    : 170vmax;
+  background-size    : 130vmax;
   background-repeat  : repeat-y;
   background-position: top;
 }
@@ -50,6 +50,7 @@ nav div {
 
 nav {
   display            : flex;
+  position           : fixed;
   background-color   : rgba(0, 0, 0, 0.88);
   justify-content    : space-around;
   align-items        : center;
@@ -271,7 +272,7 @@ h2.heading {
   position       : relative;
   justify-content: center;
   color          : #00eca9;
-  padding-top    : 80px;
+  padding-top    : 90px;
   animation-delay: 1000ms;
 }
 
@@ -341,17 +342,14 @@ div.container-contact {
 
 /* ============================================ */
 .social-links-dpm a {
-  justify-content    : center;
-  align-items        : center;
-  display            : inline-block;
-  font-size          : 30px;
-  line-height        : 40px;
-  border-radius      : 25px;
-  transition-delay   : 3000ms;
-  margin-bottom      : 0px;
-  /* background-color: #ffffff; */
-  margin-bottom      : 200px;
-
+  justify-content : center;
+  align-items     : center;
+  display         : inline-block;
+  font-size       : 30px;
+  line-height     : 40px;
+  border-radius   : 25px;
+  transition-delay: 3000ms;
+  margin-bottom   : 200px;
 }
 
 .social-links-dpm a.ig i {
@@ -422,7 +420,6 @@ body {
   padding         : 25px;
   height          : 180px;
   width           : 100%;
-  bottom          : 0;
 }
 
 
