@@ -384,40 +384,29 @@ p {
 .card {
   display         : inline-block;
   border-radius   : 10px;
-  background-color: #303030;
-  padding-left    : 15px;
-  padding-right   : 15px;
+  background-color: #000000a4;
+  padding-left    : 20px;
+  padding-right   : 20px;
 }
 
 .card-group {
   background-color: #00000000;
   display         : flexbox;
-  margin-left     : 25px;
-  margin-right    : 25px;
+  margin-left     : 10px;
+  margin-right    : 10px;
   transition-delay: 1200ms;
-  gap             : 25px;
   padding-bottom  : 25px;
 }
 
 .card-body {
   background-color  : #6b0000;
   mask-border-outset: 2px;
-  margin-left       : 15px;
-  margin-right      : 15px;
-  margin-top        : 15px;
-  margin-bottom     : 15px;
+  margin-left       : 5px;
+  margin-right      : 5px;
+  margin-top        : 20px;
+  margin-bottom     : 18px;
   border-radius     : 10px;
-  padding-bottom    : 15px;
-  gap               : 25px;
 }
-
-/* .card-img {
-  aspect-ratio : 70%;
-  margin-left  : 5px;
-  margin-right : 5px;
-  margin-top   : 5px;
-  margin-bottom: 5px;
-} */
 
 .card-title {
   font-size  : 15px;
@@ -434,6 +423,7 @@ p {
   font-weight: 50;
   font-style : italic;
   color      : #ffffff;
+  margin: 0;
 }
 
 small {
@@ -454,7 +444,6 @@ span.space {
 .footer .container p {
   font-size       : 15px;
   color           : #545454;
-  background-color: #000000f5;
 }
 
 .footer {

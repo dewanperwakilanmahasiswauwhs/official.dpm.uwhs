@@ -312,19 +312,7 @@ h5.animate__animated {
 }
 
 /* CONTENT--------------------------------------------------------- */
-/* --------------------------------------------------- */
-/* --------------------------------------------------- */
 /* FOOTER */
-body {
-  line-height: 1.5;
-  font-family: 'acme', sans-serif;
-}
-
-* {
-  margin    : 0;
-  padding   : 0;
-  box-sizing: border-box;
-}
 
 .container {
   max-width: 1170px;
@@ -334,7 +322,6 @@ body {
 .footer .container p {
   font-size: 15px;
   color    : #545454;
-  background-color: #000000f5;
 }
 
 .footer {

@@ -13,6 +13,7 @@ body {
   background-size    : 130vmax;
   background-repeat  : repeat-y;
   background-position: top;
+
 }
 
 /* Navnbar */
@@ -283,6 +284,8 @@ h3.animate__animated {
   justify-content: center;
   padding-top    : 15px;
   padding-bottom : 7px;
+  margin-left    : 20px;
+  margin-right   : 20px;
   animation-delay: 2000ms;
 }
 
@@ -310,11 +313,23 @@ div.container-contact {
 }
 
 .phone-1 i {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.phone-1 i.fa-solid {
+  padding-top: 5px;
+  font-size  : 18px;
+  color      : #00fffb;
 }
 
 .phone-2 i {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.phone-2 i.fa-solid {
+  padding-top: 5px;
+  font-size  : 18px;
+  color      : #00fffb;
 }
 
 .phone-1 p {
@@ -327,8 +342,9 @@ div.container-contact {
   color    : #ffffff;
 }
 
-.mail i {
-  font-size: 25px;
+.mail i.fa-solid {
+  font-size  : 20px;
+  padding-top: 5px;
 }
 
 .mail p {
@@ -342,41 +358,36 @@ div.container-contact {
 
 /* ============================================ */
 .social-links-dpm a {
-  justify-content : center;
-  align-items     : center;
   display         : inline-block;
   font-size       : 30px;
   line-height     : 40px;
   border-radius   : 25px;
   transition-delay: 3000ms;
-  padding-top     : 50px;
-  margin-bottom   : 250px;
+  margin-bottom   : 26vmax;
 }
 
-.social-links-dpm a.ig i {
+a.ig i {
   color: rgb(232, 1, 109);
-
 }
 
-.social-links-dpm a.mail i {
-  margin-top  : 30px;
-  margin-left : 100px;
-  margin-right: 100px;
+a.mail i {
   font-size   : 29px;
   color       : rgb(157, 157, 128);
+  margin-left : 70px;
+  margin-right: 70px;
 }
 
-.social-links-dpm a.wa i {
+a.wa i {
   color: rgb(0, 193, 48);
 }
 
-.social-links-dpm i.fa-brands:hover {
+i.fa-brands:hover {
   transform : translateY(-10px);
   transition: 500ms;
   color     : #ffffff;
 }
 
-.social-links-dpm a i.fa-regular:hover {
+a i.fa-regular:hover {
   transform : translateY(-10px);
   transition: 500ms;
   color     : #ffffff;
@@ -385,33 +396,32 @@ div.container-contact {
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
 .container {
-  max-width: 100%;
+  max-width: 1170px;
   margin   : auto;
 }
 
-.footer .container p {
-  font-size       : 15px;
-  color           : #545454;
-  background-color: #000000f5;
-  padding         : 0;
-  margin          : 0;
+.container p {
+  display  : flexbox;
+  font-size: 15px;
+  color    : #545454;
 }
 
 .footer {
-  display         : inline-block;
+  position        : sticky;
   background-color: #000000f5;
   padding         : 25px;
-  height          : 160px;
+  height          : 185px;
   width           : 100%;
-  bottom          : 0;
 }
-
 
 h4 {
   font-size  : 12px;
   color      : #ffffff;
   font-weight: 500;
+  position   : relative;
 }
+
+/* ========================================== */
 
 .social-links-me {
   width: 100%;
