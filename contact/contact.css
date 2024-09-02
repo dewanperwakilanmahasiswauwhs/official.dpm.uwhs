@@ -281,7 +281,6 @@ h3.animate__animated {
   color          : #ffffff;
   display        : flex;
   position       : relative;
-  justify-content: center;
   padding-top    : 15px;
   padding-bottom : 7px;
   margin-left    : 20px;
