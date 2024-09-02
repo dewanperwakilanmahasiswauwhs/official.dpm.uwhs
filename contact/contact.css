@@ -264,6 +264,7 @@ p {
 div.content {
   color           : rgb(243, 243, 243);
   background-color: #000000c4;
+  width           : 100%;
 }
 
 h2.heading {
@@ -349,6 +350,7 @@ div.container-contact {
   border-radius   : 25px;
   transition-delay: 3000ms;
   margin-bottom   : 200px;
+  bottom          : 0;
 }
 
 .social-links-dpm a.ig i {
@@ -385,17 +387,6 @@ div.container-contact {
 /* CONTENT END---------------------------------------------- */
 /* --------------------------------------------------- */
 /* FOOTER */
-body {
-  line-height: 1.5;
-  font-family: 'acme', sans-serif;
-}
-
-* {
-  margin    : 0;
-  padding   : 0;
-  box-sizing: border-box;
-}
-
 .container {
   max-width: 1170px;
   margin   : auto;
@@ -436,7 +427,7 @@ h4 {
 }
 
 .social-links-me i {
-  display      : inline-block;
+  display      : flexbox;
   font-size    : 20px;
   height       : 40px;
   width        : 40px;
