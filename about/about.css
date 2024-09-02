@@ -254,6 +254,7 @@ nav ul.slide {
 .section {
   color           : rgb(243, 243, 243);
   background-color: #000000c4;
+  padding-top     : 50px;
 }
 
 h4.content {
@@ -263,9 +264,8 @@ h4.content {
 
 center h1 {
   color          : #b70c00;
-  font-family    : "Anton", cursive, sans-serif;
+  font-family    : 'Amaranth', cursive, sans-serif;
   letter-spacing : 2px;
-  padding-top    : 60px;
   margin-bottom  : 25px;
   margin-left    : 25px;
   margin-right   : 25px;
@@ -276,7 +276,7 @@ center h1 {
 
 h1 span {
   color      : #00beab;
-  font-family: 'Amarant', sans-serif;
+  font-family: 'acme', sans-serif;
   font-size  : 17px;
 }
 

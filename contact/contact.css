@@ -268,21 +268,22 @@ div.content {
 }
 
 h2.heading {
+  color          : #00f7ff;
   display        : flex;
+  font-family    : 'Amaranth', 'acme', 'cursive', sans-serif;
   position       : relative;
   justify-content: center;
-  color          : #00eca9;
   padding-top    : 90px;
   animation-delay: 1000ms;
 }
 
 h3.animate__animated {
+  color          : #ffffff;
   display        : flex;
   position       : relative;
   justify-content: center;
   padding-top    : 15px;
   padding-bottom : 7px;
-  color          : #ffffff;
   animation-delay: 2000ms;
 }
 

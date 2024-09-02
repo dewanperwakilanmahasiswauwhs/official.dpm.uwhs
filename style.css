@@ -385,15 +385,18 @@ p {
   display         : inline-block;
   border-radius   : 10px;
   background-color: #303030;
+  padding-left    : 15px;
+  padding-right   : 15px;
 }
 
 .card-group {
-  background-color   : #00000000;
-  display            : flexbox;
-  margin-left        : 25px;
-  margin-right       : 25px;
-  transition-delay   : 1200ms;
-  /* padding-bottom  : 25px; */
+  background-color: #00000000;
+  display         : flexbox;
+  margin-left     : 25px;
+  margin-right    : 25px;
+  transition-delay: 1200ms;
+  gap             : 25px;
+  padding-bottom  : 25px;
 }
 
 .card-body {
@@ -405,16 +408,16 @@ p {
   margin-bottom     : 15px;
   border-radius     : 10px;
   padding-bottom    : 15px;
-
+  gap               : 25px;
 }
 
-.card-img {
+/* .card-img {
   aspect-ratio : 70%;
   margin-left  : 5px;
   margin-right : 5px;
   margin-top   : 5px;
   margin-bottom: 5px;
-}
+} */
 
 .card-title {
   font-size  : 15px;
