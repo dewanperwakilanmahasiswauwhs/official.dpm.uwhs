@@ -262,7 +262,7 @@ p {
 }
 
 /* CONTENT---------------------------------------------- */
-center {
+section .content {
   color           : rgb(243, 243, 243);
   background-color: #000000c4;
 }
@@ -342,28 +342,37 @@ div.container-contact {
   color    : #ffffff;
 }
 
-.mail i.fa-solid {
+.email i.fa-solid {
   font-size  : 20px;
-  padding-top: 5px;
+  padding-top: 4px;
 }
 
-.mail p {
+.email p {
   font-size: 17px;
 }
 
-.mail {
+.email {
   display        : flex;
   justify-content: center;
 }
 
 /* ============================================ */
-.social-links-dpm a {
-  display         : inline-block;
+.social-links-dpm {
+  display         : flex;
+  justify-content : center;
   font-size       : 30px;
   line-height     : 40px;
   border-radius   : 25px;
   transition-delay: 3000ms;
-  margin-bottom   : 26vmax;
+}
+
+.social-links-dpm i {
+  display            : inline-block;
+  margin             : 50px;
+  padding            : 7px;
+  /* background-color: #00e5ff; */
+  border-radius      : 10px;
+  margin-bottom      : 22vmax;
 }
 
 a.ig i {
@@ -371,10 +380,8 @@ a.ig i {
 }
 
 a.mail i {
-  font-size   : 29px;
-  color       : rgb(157, 157, 128);
-  margin-left : 70px;
-  margin-right: 70px;
+  color    : rgb(157, 157, 128);
+  font-size: 29px;
 }
 
 a.wa i {
@@ -382,15 +389,17 @@ a.wa i {
 }
 
 i.fa-brands:hover {
-  transform : translateY(-10px);
-  transition: 500ms;
-  color     : #ffffff;
+  transform       : translateY(-10px);
+  transition      : 500ms;
+  color           : #000000;
+  background-color: #dbdbdb;
 }
 
 a i.fa-regular:hover {
-  transform : translateY(-10px);
-  transition: 500ms;
-  color     : #ffffff;
+  transform       : translateY(-10px);
+  transition      : 500ms;
+  color           : #000000;
+  background-color: #dbdbdb;
 }
 
 /* CONTENT END---------------------------------------------- */

@@ -290,7 +290,7 @@ h5 {
   margin-right       : 2rem;
   padding-right      : 1rem;
   border-radius      : 15px;
-  font-size          : 15px;
+  font-size          : 18px;
   animation-delay    : 1000ms;
 }
 
@@ -409,7 +409,7 @@ p {
 }
 
 .card-title {
-  font-size  : 15px;
+  font-size  : 18px;
   font-weight: 600;
   color      : #ffffff;
 }
@@ -419,7 +419,7 @@ p {
 }
 
 .card-text {
-  font-size  : 12px;
+  font-size  : 15px;
   font-weight: 50;
   font-style : italic;
   color      : #ffffff;
