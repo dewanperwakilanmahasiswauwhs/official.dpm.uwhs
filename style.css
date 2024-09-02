@@ -50,7 +50,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgba(0, 0, 0, 0.694);
+  background-color   : rgba(0, 0, 0, 0.757);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -266,7 +266,7 @@ h4.content {
 
 center h1 {
   color        : #00beab;
-  font-family  : 'Oleo Script', sans-serif;
+  font-family  : 'acme', sans-serif;
   padding-top  : 90px;
   margin-bottom: 25px;
   margin-left  : 25px;
@@ -382,34 +382,30 @@ p {
 
 /* CARD------------------------------------------------ */
 .card {
-  display              : inline-block;
-  border-radius        : 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius   : 10px;
-  -ms-border-radius    : 10px;
-  -o-border-radius     : 10px;
-  background-color     : #303030;
+  display         : inline-block;
+  border-radius   : 10px;
+  background-color: #303030;
 }
 
 .card-group {
-  background-color: #000000c4;
-  gap             : 25px;
-  animation-delay : 1200ms;
-  display         : flexbox;
+  background-color   : #00000000;
+  display            : flexbox;
+  margin-left        : 25px;
+  margin-right       : 25px;
+  transition-delay   : 1200ms;
+  /* padding-bottom  : 25px; */
 }
 
 .card-body {
-  background-color     : #6b0000;
-  mask-border-outset   : 2px;
-  margin-left          : 10px;
-  margin-right         : 10px;
-  margin-top           : 10px;
-  margin-bottom        : 10px;
-  border-radius        : 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius   : 10px;
-  -ms-border-radius    : 10px;
-  -o-border-radius     : 10px;
+  background-color  : #6b0000;
+  mask-border-outset: 2px;
+  margin-left       : 15px;
+  margin-right      : 15px;
+  margin-top        : 15px;
+  margin-bottom     : 15px;
+  border-radius     : 10px;
+  padding-bottom    : 15px;
+
 }
 
 .card-img {
@@ -441,19 +437,12 @@ small {
   color: #bfb500;
 }
 
+span.space {
+  margin-top: 500px;
+}
+
 /* --------------------------------------------------- */
 /* FOOTER */
-body {
-  line-height: 1.5;
-  font-family: 'acme', sans-serif;
-}
-
-* {
-  margin    : 0;
-  padding   : 0;
-  box-sizing: border-box;
-}
-
 .container {
   max-width: 1170px;
   margin   : auto;

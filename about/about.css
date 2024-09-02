@@ -49,7 +49,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgba(0, 0, 0, 0.88);
+  background-color   : rgba(0, 0, 0, 0.757);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -263,7 +263,8 @@ h4.content {
 
 center h1 {
   color          : #b70c00;
-  font-family    : "acme", cursive;
+  font-family    : "Anton", cursive, sans-serif;
+  letter-spacing : 2px;
   margin-top     : 60px;
   margin-bottom  : 25px;
   margin-left    : 25px;

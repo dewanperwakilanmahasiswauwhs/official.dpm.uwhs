@@ -49,7 +49,7 @@ nav div {
 
 nav {
   display            : flex;
-  background-color   : rgba(0, 0, 0, 0.694);
+  background-color   : rgba(0, 0, 0, 0.757);
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
@@ -259,7 +259,7 @@ nav ul.slide {
 center h1 {
   color         : #af0c00;
   font-family   : "Anton", sans-serif;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   padding-top   : 90px;
   padding-bottom: 25px;
   padding-left  : 10px;
@@ -269,7 +269,8 @@ center h1 {
 }
 
 h1 span {
-  color: #00d1bc;
+  color      : #00d1bc;
+  font-family: 'Acme', sans-serif;
 }
 
 h4.animate__animated {
@@ -293,6 +294,7 @@ p.misi {
   padding-bottom: 90px;
   margin        : 0;
 }
+
 /* --------------------------------------------------- */
 /* --------------------------------------------------- */
 /* FOOTER */
