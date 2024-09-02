@@ -452,13 +452,14 @@ span.space {
 }
 
 .footer .container p {
-  font-size: 15px;
-  color    : #545454;
+  font-size       : 15px;
+  color           : #545454;
+  background-color: #000000f5;
 }
 
 .footer {
   position        : absolute;
-  background-color: #171717;
+  background-color: #000000f5;
   padding         : 25px;
   height          : 185px;
   width           : 100%;

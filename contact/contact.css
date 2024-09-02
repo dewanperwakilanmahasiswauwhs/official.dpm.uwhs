@@ -261,10 +261,9 @@ p {
 }
 
 /* CONTENT---------------------------------------------- */
-div.content {
+center {
   color           : rgb(243, 243, 243);
   background-color: #000000c4;
-  width           : 100%;
 }
 
 h2.heading {
@@ -273,7 +272,7 @@ h2.heading {
   font-family    : 'Amaranth', 'acme', 'cursive', sans-serif;
   position       : relative;
   justify-content: center;
-  padding-top    : 90px;
+  padding-top    : 150px;
   animation-delay: 1000ms;
 }
 
@@ -333,7 +332,7 @@ div.container-contact {
 }
 
 .mail p {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .mail {
@@ -350,8 +349,8 @@ div.container-contact {
   line-height     : 40px;
   border-radius   : 25px;
   transition-delay: 3000ms;
-  margin-bottom   : 200px;
-  bottom          : 0;
+  padding-top     : 50px;
+  margin-bottom   : 250px;
 }
 
 .social-links-dpm a.ig i {
@@ -383,34 +382,28 @@ div.container-contact {
   color     : #ffffff;
 }
 
-/* ===============z============================ */
-
 /* CONTENT END---------------------------------------------- */
-/* --------------------------------------------------- */
 /* FOOTER */
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   margin   : auto;
 }
 
 .footer .container p {
-  font-size: 15px;
-  color    : #545454;
+  font-size       : 15px;
+  color           : #545454;
+  background-color: #000000f5;
+  padding         : 0;
+  margin          : 0;
 }
 
-/* .row {
-  padding-top     : 10px;
-  display         : flex;
-  flex-wrap       : wrap;
-  background-color: #171717;
-} */
-
 .footer {
-  z-index         : 10px;
-  background-color: #171717;
+  display         : inline-block;
+  background-color: #000000f5;
   padding         : 25px;
-  height          : 180px;
+  height          : 160px;
   width           : 100%;
+  bottom          : 0;
 }
 
 
@@ -418,17 +411,14 @@ h4 {
   font-size  : 12px;
   color      : #ffffff;
   font-weight: 500;
-  position   : relative;
 }
-
-/*  */
 
 .social-links-me {
   width: 100%;
 }
 
 .social-links-me i {
-  display      : flexbox;
+  display      : inline-block;
   font-size    : 20px;
   height       : 40px;
   width        : 40px;

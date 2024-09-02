@@ -334,19 +334,12 @@ body {
 .footer .container p {
   font-size: 15px;
   color    : #545454;
+  background-color: #000000f5;
 }
-
-/* .row {
-  padding-top     : 10px;
-  display         : flex;
-  flex-wrap       : wrap;
-  background-color: #171717;
-} */
-
 
 .footer {
   position        : absolute;
-  background-color: #171717;
+  background-color: #000000f5;
   padding         : 25px;
   height          : 180px;
   width           : 100%;
