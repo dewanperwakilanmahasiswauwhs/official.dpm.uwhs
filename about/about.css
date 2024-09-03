@@ -280,12 +280,12 @@ h1 span {
   font-size  : 17px;
 }
 
-h5.animate__animated {
+.section h5.animate__animated {
   color          : rgb(243, 243, 243);
   margin-left    : 15px;
   margin-right   : 15px;
   animation-delay: 1500ms;
-  margin         : 0;
+  margin-bottom  : 0;
   padding-bottom : 30px;
 }
 
