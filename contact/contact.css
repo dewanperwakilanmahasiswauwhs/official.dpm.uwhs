@@ -13,6 +13,7 @@ body {
   background-size    : 130vmax;
   background-repeat  : repeat-y;
   background-position: top;
+  padding-right      : 0;
 
 }
 
