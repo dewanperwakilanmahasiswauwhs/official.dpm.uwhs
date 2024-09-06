@@ -82,16 +82,22 @@ nav ul li a {
   -o-transform     : rotate(5deg);
 }
 
+nav ul li:hover {
+  transform : translateY(-7px);
+  transition: 500ms;
+}
+
 nav ul li a:hover {
   color                : rgb(0, 202, 185);
   text-decoration      : underline;
   text-decoration-color: rgb(0, 202, 185);
   text-underline-offset: 10px;
-  transition           : 500ms;
+  font-style           : italic;
 }
 
 nav ul li a.active {
   font-size            : 12px;
+  font-style           : italic;
   text-decoration      : underline;
   text-decoration-color: #ffffff;
   color                : rgb(0, 202, 185);
@@ -99,7 +105,6 @@ nav ul li a.active {
   letter-spacing       : 1px;
   font-weight          : 700;
 }
-
 
 /* Menu Toggle */
 .menu-toggle {
@@ -233,6 +238,30 @@ nav ul li a.active {
 
   nav ul li a {
     color: rgb(255, 255, 255);
+  }
+
+  nav ul li:hover {
+    transform : translateY(-7px);
+    transition: 500ms;
+  }
+  
+  nav ul li a:hover {
+    color                : rgb(0, 202, 185);
+    text-decoration      : underline;
+    text-decoration-color: rgb(0, 202, 185);
+    text-underline-offset: 10px;
+    font-style           : italic;
+  }
+  
+  nav ul li a.active {
+    font-size            : 12px;
+    font-style           : italic;
+    text-decoration      : underline;
+    text-decoration-color: #ffffff;
+    color                : rgb(0, 202, 185);
+    text-underline-offset: 10px;
+    letter-spacing       : 1px;
+    font-weight          : 700;
   }
 }
 
