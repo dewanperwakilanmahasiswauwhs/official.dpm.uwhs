@@ -315,15 +315,15 @@ body {
 }
 
 .footer .container p {
-  font-size       : 15px;
-  color           : #545454;
+  font-size: 15px;
+  color    : #545454;
 }
 
 .footer {
   position        : relative;
   background-color: #000000f5;
   padding         : 25px;
-  height          : 180px;
+  height          : 177px;
   width           : 100%;
 }
 
@@ -357,6 +357,13 @@ h4 {
 .social-links-me i:hover {
   color           : #000000;
   background-color: #9b9a9a;
+}
+
+i.fa-brands:hover {
+  transform       : translateY(-10px);
+  transition      : 500ms;
+  color           : #000000;
+  background-color: #dbdbdb;
 }
 
 /*responsive*/

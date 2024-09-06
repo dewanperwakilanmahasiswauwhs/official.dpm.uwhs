@@ -10,10 +10,9 @@
 body {
   background-color   : #363636;
   background-image   : url(../asset/uwhs.jpg);
-  background-size    : 130vmax;
+  background-size    : 120vmax;
   background-repeat  : repeat-y;
   background-position: top;
-  padding-right      : 0;
 
 }
 
@@ -280,13 +279,11 @@ h2.heading {
 
 h3.animate__animated {
   color          : #ffffff;
-  display        : flex;
-  position       : relative;
   justify-content: center;
   padding-top    : 15px;
   padding-bottom : 7px;
-  margin-left    : 20px;
-  margin-right   : 20px;
+  padding-left   : 25px;
+  padding-right  : 25px;
   animation-delay: 2000ms;
 }
 
@@ -346,10 +343,13 @@ div.container-contact {
 .email i.fa-solid {
   font-size  : 20px;
   padding-top: 4px;
+  left       : 0;
+
 }
 
 .email p {
-  font-size: 17px;
+  font-size : 12px;
+  margin-top: 5px;
 }
 
 .email {
@@ -363,17 +363,14 @@ div.container-contact {
   justify-content : center;
   font-size       : 30px;
   line-height     : 40px;
-  border-radius   : 25px;
+  border-radius   : 10px;
   transition-delay: 3000ms;
+  margin-bottom   : 10vh;
 }
 
 .social-links-dpm i {
-  display            : inline-block;
-  margin             : 50px;
-  padding            : 7px;
-  /* background-color: #00e5ff; */
-  border-radius      : 10px;
-  margin-bottom      : 22vmax;
+  padding      : 5px;
+  border-radius: 10px;
 }
 
 a.ig i {
@@ -420,8 +417,10 @@ a i.fa-regular:hover {
   position        : sticky;
   background-color: #000000f5;
   padding         : 25px;
-  height          : 185px;
+  height          : 177px;
   width           : 100%;
+  bottom          : 0;
+
 }
 
 h4 {

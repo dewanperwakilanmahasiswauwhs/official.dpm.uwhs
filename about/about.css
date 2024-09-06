@@ -329,7 +329,7 @@ h1 span {
   position        : absolute;
   background-color: #000000f5;
   padding         : 25px;
-  height          : 180px;
+  height          : 177px;
   width           : 100%;
 }
 
@@ -365,7 +365,12 @@ h4 {
   background-color: #9b9a9a;
 }
 
-
+i.fa-brands:hover {
+  transform       : translateY(-10px);
+  transition      : 500ms;
+  color           : #000000;
+  background-color: #dbdbdb;
+}
 
 /*responsive*/
 @media(max-width: 767px) {
