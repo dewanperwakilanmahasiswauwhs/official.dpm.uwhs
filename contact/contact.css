@@ -83,6 +83,7 @@ nav ul li a {
   -o-transform     : rotate(5deg);
 }
 
+
 nav ul li:hover {
   transform : translateY(-7px);
   transition: 500ms;
@@ -97,7 +98,7 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-  font-size            : 12px;
+  font-size            : 13px;
   font-style           : italic;
   text-decoration      : underline;
   text-decoration-color: #ffffff;
@@ -105,6 +106,20 @@ nav ul li a.active {
   text-underline-offset: 10px;
   letter-spacing       : 1px;
   font-weight          : 700;
+  transform            : translateY(-10px);
+}
+
+a.active:hover {
+  text-decoration-color: rgb(0, 202, 185);
+}
+
+
+nav ul li a::selection {
+  color                : rgb(0, 202, 185);
+  text-decoration      : underline;
+  text-decoration-color: rgb(0, 202, 185);
+  text-underline-offset: 10px;
+  transform            : translateY(-10px);
 }
 
 /* Menu Toggle */
