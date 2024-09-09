@@ -454,19 +454,31 @@ a i.fa-regular:hover {
 
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
-.port {
+button {
+  text-decoration   : none;
+  font-style        : italic;
+  border-radius     : 7px;
+  /* padding        : 2px; */
+}
+
+button:hover {
+  color              : #ffffff;
+  background-color   : #009daf;
+  border-radius      : 7px;
+  /* padding         : 2px; */
+}
+
+button a {
+  color          : #000000;
   text-decoration: none;
-  color          : #00e5ff;
-  font-style     : italic;
-  font-family    : 'amaranth', sans-serif;
+  font-family    : 'boogaloo', sans-serif;
+  letter-spacing : 2px;
   padding        : 3px;
 }
 
-.port:hover {
-  color           : #000000;
-  background-color: #9b9a9a;
-  border-radius   : 3px;
-  padding         : 3px;
+button a:hover {
+  color  : #ffff;
+  padding: 3px;
 }
 
 .container {
@@ -481,12 +493,12 @@ a i.fa-regular:hover {
 }
 
 .footer {
-  position        : sticky;
-  background-color: #000000f5;
-  padding         : 25px;
+  position           : sticky;
+  background-color   : #000000f5;
+  padding            : 25px;
   /* height          : 177px; */
-  width           : 100%;
-  bottom          : 0;
+  width              : 100%;
+  bottom             : 0;
 
 }
 
