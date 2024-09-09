@@ -75,6 +75,7 @@ nav ul li a {
   font-size        : 12px;
   letter-spacing   : 1px;
   font-weight      : 700;
+  padding          : 3px;
   transform        : rotate(5deg);
   -webkit-transform: rotate(5deg);
   -moz-transform   : rotate(5deg);
@@ -91,6 +92,9 @@ nav ul li a:hover {
   color                : rgb(0, 202, 185);
   text-decoration      : underline;
   text-decoration-color: rgb(0, 202, 185);
+  background-color     : #545454;
+  padding              : 3px;
+  border-radius        : 3px;
   text-underline-offset: 10px;
   font-style           : italic;
 }
@@ -101,6 +105,9 @@ nav ul li a.active {
   text-decoration      : underline;
   text-decoration-color: #ffffff;
   color                : rgb(0, 202, 185);
+  background-color     : #545454;
+  padding              : 3px;
+  border-radius        : 3px;
   text-underline-offset: 10px;
   letter-spacing       : 1px;
   font-weight          : 700;
