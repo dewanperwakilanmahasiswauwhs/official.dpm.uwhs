@@ -331,11 +331,12 @@ h4.animate__animated {
   animation-delay: 1000ms;
 }
 
-p {
+.section p {
   font-size   : 17px;
-  margin-left : 40px;
-  margin-right: 40px;
+  margin-left : 50px;
+  margin-right: 50px;
   color       : rgb(243, 243, 243);
+  text-align  : justify;
 }
 
 p.misi {
@@ -345,18 +346,28 @@ p.misi {
   margin        : 0;
 }
 
-/* --------------------------------------------------- */
-/* --------------------------------------------------- */
-/* FOOTER */
-body {
-  line-height: 1.5;
-  font-family: 'acme', sans-serif;
+@media screen and (min-width: 900px) {
+  .section p {
+    width     : 95vh;
+    text-align: justify;
+  }
 }
 
-* {
-  margin    : 0;
-  padding   : 0;
-  box-sizing: border-box;
+/* --------------------------------------------------- */
+/* FOOTER */
+.port {
+  text-decoration: none;
+  color          : #00e5ff;
+  font-style     : italic;
+  font-family    : 'amaranth', sans-serif;
+  padding        : 3px;
+}
+
+.port:hover {
+  color           : #000000;
+  background-color: #9b9a9a;
+  border-radius   : 3px;
+  padding         : 3px;
 }
 
 .container {
@@ -365,16 +376,18 @@ body {
 }
 
 .footer .container p {
-  font-size: 15px;
-  color    : #545454;
+  font-size      : 15px;
+  color          : #545454;
+  align-items    : center;
+  justify-content: center;
 }
 
 .footer {
-  position        : relative;
-  background-color: #000000f5;
-  padding         : 25px;
-  height          : 177px;
-  width           : 100%;
+  position           : relative;
+  background-color   : #000000f5;
+  padding            : 25px;
+  /* height          : 177px; */
+  width              : 100%;
 }
 
 

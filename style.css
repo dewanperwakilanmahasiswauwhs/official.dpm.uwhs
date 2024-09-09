@@ -332,15 +332,22 @@ h1 span {
 }
 
 h5 {
-  color              : rgb(243, 243, 243);
-  /* background-color: #000000b1; */
-  margin-left        : 2rem;
-  padding-left       : 1rem;
-  margin-right       : 2rem;
-  padding-right      : 1rem;
-  border-radius      : 15px;
-  font-size          : 18px;
-  animation-delay    : 1000ms;
+  color          : rgb(243, 243, 243);
+  margin-left    : 2rem;
+  padding-left   : 1rem;
+  margin-right   : 2rem;
+  padding-right  : 1rem;
+  border-radius  : 15px;
+  font-size      : 18px;
+  animation-delay: 1000ms;
+  text-align     : justify;
+}
+
+@media screen and (min-width: 900px) {
+  h5 {
+    width     : 95vh;
+    text-align: justify;
+  }
 }
 
 /* FEED =========================== */
@@ -485,6 +492,21 @@ span.space {
 
 /* --------------------------------------------------- */
 /* FOOTER */
+.port {
+  text-decoration: none;
+  color          : #00e5ff;
+  font-style     : italic;
+  font-family    : 'amaranth', sans-serif;
+  padding        : 3px;
+}
+
+.port:hover {
+  color           : #000000;
+  background-color: #9b9a9a;
+  border-radius   : 3px;
+  padding         : 3px;
+}
+
 .container {
   max-width: 1170px;
   margin   : auto;
@@ -499,7 +521,7 @@ span.space {
   position        : absolute;
   background-color: #000000f5;
   padding         : 25px;
-  height          : 177px;
+  /* height          : 177px; */
   width           : 100%;
 }
 

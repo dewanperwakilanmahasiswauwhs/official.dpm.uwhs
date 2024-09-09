@@ -454,6 +454,21 @@ a i.fa-regular:hover {
 
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
+.port {
+  text-decoration: none;
+  color          : #00e5ff;
+  font-style     : italic;
+  font-family    : 'amaranth', sans-serif;
+  padding        : 3px;
+}
+
+.port:hover {
+  color           : #000000;
+  background-color: #9b9a9a;
+  border-radius   : 3px;
+  padding         : 3px;
+}
+
 .container {
   max-width: 1170px;
   margin   : auto;
@@ -469,7 +484,7 @@ a i.fa-regular:hover {
   position        : sticky;
   background-color: #000000f5;
   padding         : 25px;
-  height          : 177px;
+  /* height          : 177px; */
   width           : 100%;
   bottom          : 0;
 
