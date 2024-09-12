@@ -325,10 +325,10 @@ center h1 {
 }
 
 h1 span {
-  color         : #930a00;
-  font-family   : 'Anton', sans-serif;
-  font-size     : 18px;
-  letter-spacing: 1.5px;
+  color      : #930a00;
+  font-weight: 900;
+  font-family: 'acme', sans-serif;
+  font-size  : 18px;
 }
 
 h5 {
@@ -346,7 +346,7 @@ h5 {
 @media screen and (min-width: 900px) {
   h5 {
     width     : 95vh;
-    text-align: justify;
+    text-align: center;
   }
 }
 
@@ -367,6 +367,11 @@ button.btn a {
 
 .btn a:hover {
   color: #00c8ff;
+}
+
+h5.span {
+  text-decoration      : underline;
+  text-underline-offset: 10px;
 }
 
 .feed-1 img {
@@ -395,9 +400,14 @@ video {
 h4.title {
   text-decoration      : underline;
   text-underline-offset: 7px;
-  font-size            : 20px;
+  font-size            : 17px;
+  font-family          : 'acme', sans-serif;
   margin-bottom        : 20px;
   color                : rgb(255, 255, 255);
+}
+
+h4.content {
+  font-size: 15px;
 }
 
 .animate__animated .struktur {
@@ -405,7 +415,7 @@ h4.title {
   height             : 30rem;
   /* margin-left     : 15px;
   margin-right       : 15px; */
-  margin-bottom      : 50px;
+  margin-bottom      : 20px;
   animation-delay    : 3500ms;
   transition-delay   : 3500ms;
 }
@@ -421,10 +431,12 @@ p {
 
 /* CAROUSEL----------------------- */
 .carousel-inner {
-  position: relative;
-  size    : 15rem;
-
+  position        : relative;
+  size            : 15rem;
+  background-color: #00000057;
 }
+
+
 
 .carousel-item p {
   text-decoration      : underline;
@@ -535,6 +547,7 @@ button a:hover {
   padding            : 25px;
   /* height          : 177px; */
   width              : 100%;
+  height             : 15vb;
 }
 
 
