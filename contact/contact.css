@@ -8,11 +8,12 @@
 }
 
 body {
-  background-color   : #363636;
-  background-image   : url(../asset/uwhs.jpg);
-  background-size    : 120vmax;
-  background-repeat  : repeat-y;
-  background-position: top;
+  background-color     : #363636;
+  background-image     : url(../asset/uwhs.jpg);
+  background-size      : 120vmax;
+  background-repeat    : repeat-y;
+  background-position  : top;
+  background-attachment: fixed;
 
 }
 
