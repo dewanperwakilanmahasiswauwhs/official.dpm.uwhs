@@ -283,16 +283,14 @@
   <div class="contact-form mb-3">
     <form name="submit-to-google-sheet">
       <br>
-      <label for="exampleFormControlInput1" class="form-label">Nama :</label>
-      <input type="text" class="form-control" name="nama" id="exampleFormControlInput1" placeholder="Alexander">
-      <label for="exampleFormControlInput1" class="form-label">Prodi :</label>
-      <input type="text" class="form-control" name="prodi" id="exampleFormControlInput1" placeholder="D3 Keperawatan">
-      <label for="exampleFormControlInput1" class="form-label">Email :</label>
-      <input type="email" class="form-control" name="email" id="exampleFormControlInput1"
-        placeholder="nama@example.com">
-      <label for="exampleFormControlTextarea1" class="form-label">Pesan :</label>
-      <textarea class="form-control" name="pesan" id="exampleFormControlTextarea1" placeholder="Isi Pesan"
-        rows="3"></textarea>
+      <label for="nama" class="form-label">Nama :</label>
+      <input type="text" class="form-control" name="nama" id="nama" required minlength="5" placeholder="Alexander">
+      <label for="prodi" class="form-label">Prodi :</label>
+      <input type="text" class="form-control" name="prodi" id="prodi" required placeholder="D3 Keperawatan">
+      <label for="email" class="form-label">Email :</label>
+      <input type="email" class="form-control" name="email" id="email" required placeholder="nama@example.com">
+      <label for="pesan" class="form-label">Pesan :</label>
+      <textarea class="form-control" name="pesan" id="pesan" required placeholder="Isi Pesan" rows="3"></textarea>
       <button type="submit" class="btn btn-success btn-kirim">Kirim</button>
       <button class="btn btn-primary btn-loading d-none" type="button" disabled>
         <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
