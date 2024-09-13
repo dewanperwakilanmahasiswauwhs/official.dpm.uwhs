@@ -276,11 +276,13 @@
 
   <!-- Contact Form -->
   <h2>Contact Us</h2>
-  <div class="alert alert-success text-center my-alert d-none" role="alert">
+  <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
     <strong>Terima Kasih.</strong> Pesan Anda Sudah Berhasil Kami Terima.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
   <div class="contact-form mb-3">
     <form name="submit-to-google-sheet">
+      <br>
       <label for="exampleFormControlInput1" class="form-label">Nama :</label>
       <input type="text" class="form-control" name="nama" id="exampleFormControlInput1" placeholder="Alexander">
       <label for="exampleFormControlInput1" class="form-label">Prodi :</label>

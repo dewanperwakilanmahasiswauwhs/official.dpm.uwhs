@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color     : #363636;
+  background-color     : #00000057;
   background-image     : url(asset/uwhs.jpg);
   background-size      : 130vmax;
   background-repeat    : repeat-y;
@@ -513,6 +513,11 @@ span.space {
 }
 
 /* ==============Form============ */
+.alert {
+  text-align: center;
+  margin    : 0;
+}
+
 h2 {
   background-color: #000000be;
   color           : #ffffff;
@@ -544,7 +549,7 @@ label {
 }
 
 form {
-  padding-bottom: 20vh;
+  padding-bottom: 23vh;
 
 }
 
