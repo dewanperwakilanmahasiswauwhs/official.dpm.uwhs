@@ -512,6 +512,48 @@ span.space {
   margin-top: 500px;
 }
 
+/* ==============Form============ */
+h2 {
+  background-color: #000000be;
+  color           : #ffffff;
+  display         : flex;
+  justify-content : center;
+  font-weight     : 900;
+  margin          : 0;
+  padding-top     : 15vh;
+  padding-bottom  : 20px;
+}
+
+.contact-form {
+  margin          : 0;
+  display         : flex;
+  justify-content : center;
+  background-color: #000000be;
+}
+
+label {
+  font-family: 'boogalo', sans-serif;
+  color      : #ffffff;
+}
+
+.form-control {
+  font-family     : 'boogalo', sans-serif;
+  width           : 40vh;
+  background-color: #c1c1c1;
+  margin-bottom   : 15px;
+}
+
+form {
+  padding-bottom: 20vh;
+
+}
+
+button.btn {
+  font-family: sans-serif;
+}
+
+
+
 /* --------------------------------------------------- */
 /* FOOTER */
 button {
@@ -570,7 +612,7 @@ h4 {
 
 /*  */
 
-.social-links-me {
+/* .social-links-me {
   width: 100%;
 }
 
@@ -597,7 +639,7 @@ i.fa-brands:hover {
   transition      : 500ms;
   color           : #000000;
   background-color: #dbdbdb;
-}
+} */
 
 /*responsive*/
 @media(max-width: 767px) {
