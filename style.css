@@ -298,6 +298,7 @@ nav ul li a::selection {
 }
 
 nav ul.slide {
+  z-index          : 1;
   opacity          : 85%;
   transform        : translateX(0);
   -webkit-transform: translateX(0);
@@ -596,8 +597,7 @@ button a:hover {
 } */
 
 .footer {
-  z-index         : 1;
-  margin-top      : -17px;
+  margin-top      : -16.5px;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;

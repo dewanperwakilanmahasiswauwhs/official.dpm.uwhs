@@ -299,6 +299,7 @@ nav ul li a::selection {
 }
 
 nav ul.slide {
+  z-index          : 1;
   opacity          : 85%;
   transform        : translateX(0);
   -webkit-transform: translateX(0);
@@ -483,7 +484,7 @@ button a:hover {
 } */
 
 .footer {
-  z-index         : 1;
+  z-index         : 0;
   position        : relative;
   background-color: #000000e9;
   padding         : 25px;
