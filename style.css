@@ -14,7 +14,7 @@ body {
   background-repeat    : repeat-y;
   background-position  : top;
   background-attachment: fixed;
-  margin-bottom        : 0;
+  bottom               : 0;
 
 }
 
@@ -532,13 +532,13 @@ h2 {
   padding-bottom  : 20px;
 }
 
-.messege-form {
+div.messege-form {
   top               : 0;
   justify-content   : center;
   display           : flex;
   background-color  : #000000be;
   animation-duration: 2000ms;
-  height            : 75vh;
+  height            : 78vh;
 }
 
 label {
@@ -556,12 +556,10 @@ label {
 
 form {
   padding-bottom: 23vh;
-
 }
 
 button.btn {
   font-family: 'boogaloo', sans-serif;
-
 }
 
 
@@ -594,12 +592,11 @@ button a:hover {
 } */
 
 .footer {
-  margin             : 0;
-  background-color   : #000000f5;
-  padding            : 25px;
-  /* height          : 177px; */
-  width              : 100%;
-  height             : 13vb;
+  margin-top      : -18px;
+  background-color: #000000f5;
+  padding         : 25px;
+  width           : 100%;
+  height          : 13vb;
 }
 
 .container {
