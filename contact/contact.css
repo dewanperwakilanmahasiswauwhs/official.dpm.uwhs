@@ -321,6 +321,10 @@ p {
 section .content {
   color           : rgb(243, 243, 243);
   background-color: #000000c4;
+  height          : 88vb;
+  position        : relative;
+  bottom          : 0;
+
 }
 
 h2.heading {
@@ -421,7 +425,8 @@ div.container-contact {
   line-height     : 40px;
   border-radius   : 10px;
   transition-delay: 3000ms;
-  margin-bottom   : 10vh;
+  position        : relative;
+  justify-content : space-evenly;
 }
 
 .social-links-dpm i {
@@ -485,12 +490,12 @@ button a:hover {
 
 .footer {
   z-index         : 0;
-  position        : relative;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
-  height          : 14vb;
-  bottom          : 0;
+  height          : 15vb;
+  position        : relative;
+  top             : -1px;
 }
 
 .container {
