@@ -528,15 +528,17 @@ span.space {
   margin    : 0;
 }
 
-h2 {
-  background-color: #000000be;
-  color           : #ffffff;
-  display         : flex;
-  justify-content : center;
-  font-weight     : 700;
-  margin          : 0;
-  padding-top     : 15vh;
-  padding-bottom  : 3rem;
+.form-dpm h2 {
+  /* position          : relative; */
+  background-color  : #000000be;
+  color             : #ffffff;
+  display           : flex;
+  justify-content   : center;
+  font-weight       : 700;
+  margin            : 0;
+  padding-top       : 15vh;
+  padding-bottom    : 60px;
+  animation-duration: 2s;
 }
 
 div.messege-form {
@@ -545,7 +547,9 @@ div.messege-form {
   display           : flex;
   background-color  : #000000be;
   animation-duration: 2000ms;
-  height            : 90vh;
+  height            : 70vh;
+  position          : relative;
+  align-items       : center;
 }
 
 label {
