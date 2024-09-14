@@ -401,12 +401,17 @@ button a:hover {
   height          : 14vb;
   position        : relative;
   bottom          : 0;
+  right           : 0;
+  left            : 0;
 
 }
 
 .container {
-  max-width: 1170px;
-  margin   : auto;
+  position       : relative;
+  justify-content: center;
+  align-items    : center;
+  max-width      : 1170px;
+  margin         : auto;
 }
 
 .footer .container p {

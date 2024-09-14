@@ -348,7 +348,7 @@ h1 span {
   font-size  : 18px;
 }
 
-h5 {
+h5.text {
   color          : rgb(243, 243, 243);
   font-family    : 'acme', sans-serif;
   margin-left    : 2rem;
@@ -356,7 +356,7 @@ h5 {
   margin-right   : 2rem;
   padding-right  : 1rem;
   border-radius  : 15px;
-  font-size      : 16px;
+  font-size      : 17px;
   animation-delay: 1000ms;
 }
 
@@ -603,19 +603,23 @@ button a:hover {
 } */
 
 .footer {
-  margin-top      : -15px;
+  margin-top      : -16.5px;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
   height          : 13vb;
   position        : relative;
   bottom          : 0;
-
+  right           : 0;
+  left            : 0;
 }
 
 .container {
-  max-width: 1170px;
-  margin   : auto;
+  position       : relative;
+  justify-content: center;
+  align-items    : center;
+  max-width      : 1170px;
+  margin         : auto;
 }
 
 
