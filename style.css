@@ -14,6 +14,8 @@ body {
   background-repeat    : repeat-y;
   background-position  : top;
   background-attachment: fixed;
+  margin-bottom        : 0;
+
 }
 
 /* Navnbar */
@@ -93,8 +95,7 @@ nav ul li a:hover {
   color                : rgb(0, 202, 185);
   text-decoration      : underline;
   text-decoration-color: rgb(0, 202, 185);
-  background-color     : #545454;
-  padding              : 3px;
+  padding              : 4px;
   border-radius        : 3px;
   text-underline-offset: 10px;
   font-style           : italic;
@@ -106,8 +107,7 @@ nav ul li a.active {
   text-decoration      : underline;
   text-decoration-color: #ffffff;
   color                : rgb(0, 202, 185);
-  background-color     : #545454;
-  padding              : 3px;
+  padding              : 4px;
   border-radius        : 3px;
   text-underline-offset: 10px;
   letter-spacing       : 1px;
@@ -115,9 +115,9 @@ nav ul li a.active {
   transform            : translateY(-10px);
 }
 
-a.active:hover {
+/* a.active:hover {
   text-decoration-color: rgb(0, 202, 185);
-}
+} */
 
 nav ul li a::selection {
   color                : rgb(0, 202, 185);
@@ -311,7 +311,7 @@ div.section {
 
 h4 {
   font-family: 'acme', sans-serif;
-  font-size  : 17px;
+  font-size  : 15px;
 }
 
 img.feed {
@@ -319,8 +319,10 @@ img.feed {
 }
 
 h4.content {
-  text-decoration: underline;
-  color          : rgb(243, 243, 243);
+  text-decoration      : underline;
+  text-underline-offset: 7px;
+  color                : rgb(243, 243, 243);
+  font-size            : 15px;
 }
 
 center h1 {
@@ -342,15 +344,15 @@ h1 span {
 }
 
 h5 {
-  color             : rgb(243, 243, 243);
-  margin-left       : 2rem;
-  padding-left      : 1rem;
-  margin-right      : 2rem;
-  padding-right     : 1rem;
-  border-radius     : 15px;
-  font-size         : 14px;
-  animation-delay   : 1000ms;
-  /* text-align     : justify; */
+  color          : rgb(243, 243, 243);
+  font-family    : 'acme', sans-serif;
+  margin-left    : 2rem;
+  padding-left   : 1rem;
+  margin-right   : 2rem;
+  padding-right  : 1rem;
+  border-radius  : 15px;
+  font-size      : 14px;
+  animation-delay: 1000ms;
 }
 
 @media screen and (min-width: 900px) {
@@ -379,9 +381,14 @@ button.btn a {
   color: #00c8ff;
 }
 
+h4.span {
+  padding-bottom: 10px;
+}
+
 h5.span {
   text-decoration      : underline;
-  text-underline-offset: 10px;
+  text-underline-offset: 15px;
+  text-underline-offset: 7px;
 }
 
 .feed-1 img {
@@ -410,14 +417,10 @@ video {
 h4.title {
   text-decoration      : underline;
   text-underline-offset: 7px;
-  font-size            : 17px;
+  font-size            : 15px;
   font-family          : 'acme', sans-serif;
   margin-bottom        : 20px;
   color                : rgb(255, 255, 255);
-}
-
-h4.content {
-  font-size: 15px;
 }
 
 .animate__animated .struktur {
@@ -523,29 +526,32 @@ h2 {
   color           : #ffffff;
   display         : flex;
   justify-content : center;
-  font-weight     : 900;
+  font-weight     : 700;
   margin          : 0;
   padding-top     : 15vh;
   padding-bottom  : 20px;
 }
 
-.contact-form {
-  margin          : 0;
-  display         : flex;
-  justify-content : center;
-  background-color: #000000be;
+.messege-form {
+  top               : 0;
+  justify-content   : center;
+  display           : flex;
+  background-color  : #000000be;
+  animation-duration: 2000ms;
+  height            : 75vh;
 }
 
 label {
-  font-family: 'boogalo', sans-serif;
+  font-family: 'boogaloo', sans-serif;
   color      : #ffffff;
 }
 
 .form-control {
-  font-family     : 'boogalo', sans-serif;
+  font-family     : sans-serif;
   width           : 40vh;
   background-color: #c1c1c1;
   margin-bottom   : 18px;
+
 }
 
 form {
@@ -554,25 +560,24 @@ form {
 }
 
 button.btn {
-  font-family: sans-serif;
+  font-family: 'boogaloo', sans-serif;
+
 }
 
 
 
 /* --------------------------------------------------- */
 /* FOOTER */
-button {
+/* button {
   text-decoration   : none;
   font-style        : italic;
   border-radius     : 7px;
-  /* padding        : 2px; */
 }
 
 button:hover {
   color              : #ffffff;
   background-color   : #009daf;
   border-radius      : 7px;
-  /* padding         : 2px; */
 }
 
 button a {
@@ -586,6 +591,15 @@ button a {
 button a:hover {
   color  : #ffff;
   padding: 3px;
+} */
+
+.footer {
+  margin             : 0;
+  background-color   : #000000f5;
+  padding            : 25px;
+  /* height          : 177px; */
+  width              : 100%;
+  height             : 13vb;
 }
 
 .container {
@@ -593,19 +607,29 @@ button a:hover {
   margin   : auto;
 }
 
+
 .footer .container p {
   font-size: 15px;
   color    : #545454;
 }
 
-.footer {
-  position           : absolute;
-  background-color   : #000000f5;
-  padding            : 25px;
-  /* height          : 177px; */
-  width              : 100%;
-  height             : 15vb;
+a.port {
+  font-family          : 'acme', sans-serif;
+  text-decoration      : underline;
+  text-underline-offset: 5px;
+  color                : #01b5c9;
+  padding              : 2px;
 }
+
+a.port:hover {
+  transform       : translateY(-7px);
+  border-radius   : 3px;
+  padding         : 2px;
+  font-style      : italic;
+  background-color: #545454;
+  color           : #ffffff;
+}
+
 
 
 h4 {

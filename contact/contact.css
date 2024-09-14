@@ -105,8 +105,7 @@ nav ul li a.active {
   text-decoration      : underline;
   text-decoration-color: #ffffff;
   color                : rgb(0, 202, 185);
-  background-color     : #545454;
-  padding              : 3px;
+  padding              : 4px;
   border-radius        : 3px;
   text-underline-offset: 10px;
   letter-spacing       : 1px;
@@ -114,17 +113,16 @@ nav ul li a.active {
   transform            : translateY(-10px);
 }
 
-a.active:hover {
+/* a.active:hover {
   text-decoration-color: rgb(0, 202, 185);
-}
+} */
 
 
 nav ul li a::selection {
   color                : rgb(0, 202, 185);
   text-decoration      : underline;
   text-decoration-color: rgb(0, 202, 185);
-  background-color     : #545454;
-  padding              : 3px;
+  padding              : 4px;
   border-radius        : 3px;
   text-underline-offset: 10px;
   transform            : translateY(-10px);
@@ -455,18 +453,16 @@ a i.fa-regular:hover {
 
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
-button {
+/* button {
   text-decoration   : none;
   font-style        : italic;
   border-radius     : 7px;
-  /* padding        : 2px; */
 }
 
 button:hover {
   color              : #ffffff;
   background-color   : #009daf;
   border-radius      : 7px;
-  /* padding         : 2px; */
 }
 
 button a {
@@ -480,6 +476,16 @@ button a {
 button a:hover {
   color  : #ffff;
   padding: 3px;
+} */
+
+.footer {
+  position           : sticky;
+  background-color   : #000000f5;
+  padding            : 25px;
+  /* height          : 177px; */
+  width              : 100%;
+  height             : 14vb;
+  bottom             : 0;
 }
 
 .container {
@@ -493,16 +499,22 @@ button a:hover {
   color    : #545454;
 }
 
-.footer {
-  position           : sticky;
-  background-color   : #000000f5;
-  padding            : 25px;
-  /* height          : 177px; */
-  width              : 100%;
-  height             : 14vb;
-  bottom             : 0;
-
+a.port {
+  text-decoration      : underline;
+  text-underline-offset: 5px;
+  color                : #01b5c9;
+  padding              : 2px;
 }
+
+a.port:hover {
+  transform       : translateY(-7px);
+  border-radius   : 3px;
+  padding         : 2px;
+  font-style      : italic;
+  background-color: #545454;
+  color           : #ffffff;
+}
+
 
 h4 {
   font-size  : 12px;
