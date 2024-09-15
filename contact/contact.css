@@ -124,6 +124,7 @@ nav ul li a.active {
 
 nav ul li a::selection {
   color                : rgb(0, 202, 185);
+  text-shadow          : 0 0 10px rgb(0, 255, 234);
   text-decoration      : underline;
   text-decoration-color: rgb(0, 202, 185);
   padding              : 4px;
@@ -273,6 +274,7 @@ nav ul li a::selection {
 
   nav ul li a:hover {
     color                : rgb(0, 202, 185);
+    text-shadow          : 0 0 10px rgb(0, 255, 234);
     text-decoration      : underline;
     text-decoration-color: rgb(0, 202, 185);
     text-underline-offset: 10px;
@@ -285,6 +287,7 @@ nav ul li a::selection {
     text-decoration      : underline;
     text-decoration-color: #ffffff;
     color                : rgb(0, 202, 185);
+    text-shadow          : 0 0 10px rgb(0, 255, 234);
     text-underline-offset: 10px;
     letter-spacing       : 1px;
     font-weight          : 700;
@@ -328,13 +331,14 @@ section .content {
 }
 
 h2.heading {
-  color          : #00f7ff;
+  color          : #00dde5;
   display        : flex;
   font-family    : 'Amaranth', 'acme', 'cursive', sans-serif;
   position       : relative;
   justify-content: center;
   padding-top    : 150px;
   animation-delay: 1000ms;
+  text-shadow    : 0 0 10px #000000;
 }
 
 h3.animate__animated {
@@ -371,7 +375,8 @@ div.container-contact {
 }
 
 .phone-1 i {
-  font-size: 20px;
+  font-size  : 20px;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .phone-1 i.fa-solid {
@@ -381,34 +386,48 @@ div.container-contact {
 }
 
 .phone-2 i {
-  font-size: 20px;
+  font-size  : 20px;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .phone-2 i.fa-solid {
   padding-top: 5px;
   font-size  : 18px;
   color      : #00fffb;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .phone-1 p {
-  font-size: 18px;
-  color    : #ffffff;
+  font-size  : 18px;
+  color      : #ffffff;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .phone-2 p {
-  font-size: 18px;
-  color    : #ffffff;
+  font-size  : 18px;
+  color      : #ffffff;
+  text-shadow: 0 0 10px #ffffff;
 }
 
 .email i.fa-solid {
-  font-size  : 20px;
-  padding-top: 7px;
-  left       : 0;
+  font-size     : 20px;
+  padding-top   : 8px;
+  left          : 0;
+  text-shadow   : 0 0 10px #ffffff;
+  /* color      : rgb(157, 157, 128); */
+}
+
+.email a {
+  color                : #00fffb;
+  text-decoration      : underline;
+  text-underline-offset: 5px;
+
 }
 
 .email p {
-  font-size : 15px;
-  margin-top: 5px;
+  text-shadow: 0 0 10px #ffffff;
+  font-size  : 15px;
+  margin-top : 5px;
 }
 
 .email {
@@ -447,17 +466,17 @@ a.wa i {
 }
 
 i.fa-brands:hover {
-  transform       : translateY(-10px);
-  transition      : 500ms;
-  color           : #000000;
-  background-color: #dbdbdb;
+  transform  : translateY(-10px);
+  transition : 500ms;
+  color      : rgb(255, 255, 255);
+  text-shadow: 0 5px 10px rgb(255, 255, 255);
 }
 
 a i.fa-regular:hover {
-  transform       : translateY(-10px);
-  transition      : 500ms;
-  color           : #000000;
-  background-color: #dbdbdb;
+  transform  : translateY(-10px);
+  transition : 500ms;
+  color      : rgb(255, 255, 255);
+  text-shadow: 0 5px 10px rgb(255, 255, 255);
 }
 
 /* CONTENT END---------------------------------------------- */
@@ -522,12 +541,12 @@ a.port {
 }
 
 a.port:hover {
-  transform       : translateY(-7px);
-  border-radius   : 3px;
-  padding         : 2px;
-  font-style      : italic;
-  background-color: #545454;
-  color           : #ffffff;
+  transform    : translateY(-7px);
+  border-radius: 3px;
+  padding      : 2px;
+  font-style   : italic;
+  color        : rgb(255, 255, 255);
+  text-shadow  : 0 0 10px rgb(255, 255, 255);
 }
 
 

@@ -95,6 +95,7 @@ nav ul li:hover {
 
 nav ul li a:hover {
   color                : rgb(0, 202, 185);
+  text-shadow          : 0 0 10px rgb(0, 255, 234);
   text-decoration      : underline;
   text-decoration-color: rgb(0, 202, 185);
   padding              : 4px;
@@ -270,6 +271,7 @@ nav ul li a::selection {
 
   nav ul li a:hover {
     color                : rgb(0, 202, 185);
+    text-shadow          : 0 0 10px rgb(0, 255, 234);
     text-decoration      : underline;
     text-decoration-color: rgb(0, 202, 185);
     text-underline-offset: 10px;
@@ -282,6 +284,7 @@ nav ul li a::selection {
     text-decoration      : underline;
     text-decoration-color: #ffffff;
     color                : rgb(0, 202, 185);
+    text-shadow          : 0 0 10px rgb(0, 255, 234);
     text-underline-offset: 10px;
     letter-spacing       : 1px;
     font-weight          : 700;
@@ -312,9 +315,10 @@ nav ul.slide {
 }
 
 center h1 {
-  color         : #af0c00;
-  font-family   : "Amaranth", sans-serif;
-  letter-spacing: 2px;
+  color         : #d90e00;
+  text-shadow   : 0 0 10px #000000;
+  font-family   : "acme", sans-serif;
+  letter-spacing: 1px;
   padding-top   : 90px;
   padding-bottom: 25px;
   padding-left  : 10px;
@@ -325,7 +329,10 @@ center h1 {
 
 h1 span {
   color      : #00d1bc;
-  font-family: 'Acme', sans-serif;
+  font-weight: 900;
+  font-family: 'acme', sans-serif;
+  font-size  : 18px;
+  text-shadow: 0 0 10px #000000;
 }
 
 h4.animate__animated {
@@ -421,12 +428,12 @@ a.port {
 }
 
 a.port:hover {
-  transform       : translateY(-7px);
-  border-radius   : 3px;
-  padding         : 2px;
-  font-style      : italic;
-  background-color: #545454;
-  color           : #ffffff;
+  transform    : translateY(-7px);
+  border-radius: 3px;
+  padding      : 2px;
+  font-style   : italic;
+  color        : rgb(255, 255, 255);
+  text-shadow  : 0 0 10px rgb(255, 255, 255);
 }
 
 
