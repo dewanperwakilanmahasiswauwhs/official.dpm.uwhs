@@ -10,7 +10,7 @@
 body {
   background-image     : url(asset/uwhs.jpg);
   background-color     : #00000057;
-  background-size      : 130vmax;
+  background-size      : 200%;
   background-repeat    : repeat-y;
   background-position  : top;
   background-attachment: fixed;
@@ -522,9 +522,9 @@ span.space {
 
 /* ==============Form============ */
 .form-dpm {
-  display      : grid;
-  position     : relative;
-  top          : 0;
+  display : grid;
+  position: relative;
+  top     : 0;
 }
 
 div.alert {
