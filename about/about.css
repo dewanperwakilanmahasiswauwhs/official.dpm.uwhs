@@ -14,6 +14,7 @@ body {
   background-repeat    : repeat-y;
   background-position  : top;
   background-attachment: fixed;
+  overflow-x           : hidden;
 }
 
 /* Navnbar */
@@ -69,7 +70,7 @@ nav ul {
   list-style     : none;
   width          : 35%;
   justify-content: space-around;
-  margin-top     : 35px;
+  margin-top     : 25px;
 }
 
 nav ul li a {
@@ -98,7 +99,7 @@ nav ul li a:hover {
   text-decoration-color: rgb(0, 202, 185);
   padding              : 4px;
   border-radius        : 3px;
-  text-underline-offset: 10px;
+  text-underline-offset: 7px;
   font-style           : italic;
 }
 
@@ -110,7 +111,7 @@ nav ul li a.active {
   color                : rgb(0, 202, 185);
   padding              : 4px;
   border-radius        : 3px;
-  text-underline-offset: 10px;
+  text-underline-offset: 7px;
   letter-spacing       : 1px;
   font-weight          : 700;
   transform            : translateY(-10px);

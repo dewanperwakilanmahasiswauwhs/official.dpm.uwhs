@@ -8,14 +8,14 @@
 }
 
 body {
-  background-color     : #00000057;
   background-image     : url(asset/uwhs.jpg);
+  background-color     : #00000057;
   background-size      : 130vmax;
   background-repeat    : repeat-y;
   background-position  : top;
   background-attachment: fixed;
   bottom               : 0;
-
+  overflow-x           : hidden;
 }
 
 /* Navnbar */
@@ -72,7 +72,7 @@ nav ul {
   list-style     : none;
   width          : 35%;
   justify-content: space-around;
-  margin-top     : 35px;
+  margin-top     : 25px;
 }
 
 nav ul li a {
@@ -101,7 +101,7 @@ nav ul li a:hover {
   text-decoration-color: rgb(0, 202, 185);
   padding              : 4px;
   border-radius        : 3px;
-  text-underline-offset: 10px;
+  text-underline-offset: 7px;
   font-style           : italic;
 }
 
@@ -113,7 +113,7 @@ nav ul li a.active {
   color                : rgb(0, 202, 185);
   padding              : 4px;
   border-radius        : 3px;
-  text-underline-offset: 10px;
+  text-underline-offset: 7px;
   letter-spacing       : 1px;
   font-weight          : 700;
   transform            : translateY(-10px);
@@ -521,35 +521,80 @@ span.space {
 }
 
 /* ==============Form============ */
-.alert {
-  position  : relative;
-  z-index   : 1;
-  text-align: center;
-  margin    : 0;
+.form-dpm {
+  display : grid;
+  position: relative;
+  top     : 0;
+
+}
+
+div.alert {
+  display           : grid;
+  position          : relative;
+  text-align        : center;
+  justify-self      : center;
+  z-index           : 1;
+  margin            : 0;
+  width             : 90%;
+  animation-duration: 1.5s;
+}
+
+.btn-close {
+  position   : relative;
+  height     : auto;
+  align-items: center;
+  bottom     : 0;
+  top        : 0;
+}
+
+@media screen and (min-width: 765px) {
+  div.alert {
+    display           : grid;
+    position          : relative;
+    text-align        : center;
+    justify-self      : center;
+    text-align        : center;
+    justify-content   : center;
+    z-index           : 1;
+    margin            : 0;
+    z-index           : 2;
+    width             : 60%;
+    animation-duration: 1.5s;
+  }
+
+  .form-dpm h2 {
+    position      : relative;
+    padding-bottom: 200px;
+  }
 }
 
 .form-dpm h2 {
-  /* position          : relative; */
+  z-index           : 0;
+  position          : relative;
+  top               : 0;
+  bottom            : 0;
+  margin            : 0;
   background-color  : #000000be;
   color             : #ffffff;
   display           : flex;
   justify-content   : center;
   font-weight       : 700;
-  margin            : 0;
-  padding-top       : 15vh;
-  padding-bottom    : 60px;
+  padding-top       : 20vh;
+  padding-bottom    : 80px;
   animation-duration: 2s;
 }
 
 div.messege-form {
+  z-index           : 0;
+  position          : relative;
+  margin            : 0;
   top               : 0;
-  justify-content   : center;
-  display           : flex;
   background-color  : #000000be;
   animation-duration: 2000ms;
-  height            : 70vh;
-  position          : relative;
+  height            : 60vh;
+  display           : flex;
   align-items       : center;
+  justify-content   : center;
 }
 
 label {
@@ -603,7 +648,7 @@ button a:hover {
 } */
 
 .footer {
-  margin-top      : -16.5px;
+  margin-top      : -14px;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
