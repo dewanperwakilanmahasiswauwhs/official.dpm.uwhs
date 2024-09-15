@@ -492,7 +492,7 @@ button a:hover {
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
-  height          : 14vb;
+  height          : auto;
   position        : relative;
   justify-content : end;
   top             : -1px;
