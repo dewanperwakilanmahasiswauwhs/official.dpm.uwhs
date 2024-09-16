@@ -571,22 +571,21 @@ div.alert {
     animation-duration: 1.5s;
   }
 
-  h6.animate__animated {
+  h6.messege {
     position             : relative;
-    padding-bottom       : 10rem;
     letter-spacing       : 2px;
     font-family          : 'boogaloo', sans-serif;
     font-size            : 1rem;
     display              : flex;
     justify-content      : center;
-    color                : #00d4bf;
     text-shadow          : 0 0 10px #ffff;
     text-decoration      : underline;
     text-underline-offset: 7px;
+    padding-bottom       : 2rem;
   }
 }
 
-h6.animate__animated {
+h6.messege {
   position          : relative;
   top               : 0;
   margin            : 0;
@@ -596,18 +595,20 @@ h6.animate__animated {
   justify-content   : center;
   font-size         : 25px;
   font-weight       : 700;
-  padding-top       : 20vh;
-  padding-bottom    : 120px;
+  padding-top       : 14rem;
+  padding-bottom    : 5rem;
   animation-duration: 2s;
 }
 
 div.messege-form {
   position          : relative;
+  padding-top       : 20rem;
+  padding-bottom    : 25rem;
   margin            : 0;
   top               : 0;
   background-color  : #000000be;
   animation-duration: 2000ms;
-  height            : 60vh;
+  height            : 65vh;
   display           : flex;
   align-items       : center;
   justify-content   : center;
@@ -664,7 +665,7 @@ button a:hover {
 } */
 
 .footer {
-  margin-top      : -16px;
+  margin-top      : -15px;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
