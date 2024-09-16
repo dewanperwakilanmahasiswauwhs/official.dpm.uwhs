@@ -15,7 +15,7 @@ body {
   background-position  : top;
   background-attachment: scroll;
   overflow-x           : hidden;
-  overflow-y           : visible;
+  overflow-y           : auto;
 }
 
 /* Navnbar */
@@ -338,7 +338,7 @@ h2.heading {
   font-family    : 'Amaranth', 'acme', 'cursive', sans-serif;
   position       : relative;
   justify-content: center;
-  padding-top    : 150px;
+  padding-top    : 130px;
   animation-delay: 1000ms;
   text-shadow    : 0 0 10px #000000;
 }
@@ -438,17 +438,23 @@ div.container-contact {
 }
 
 /* ============================================ */
+@media screen and (min-width: 765px) {
+  body {
+    background-size    : 100%;
+    background-position: center;
+  }
+}
+
 .social-links-dpm {
-  display            : flex;
-  justify-content    : center;
-  align-items        : start;
-  font-size          : 30px;
-  line-height        : 40px;
-  border-radius      : 10px;
-  transition-delay   : 3000ms;
-  position           : relative;
-  justify-content    : space-evenly;
-  /* height          : 30rem; */
+  display         : flex;
+  align-items     : start;
+  font-size       : 30px;
+  line-height     : 40px;
+  border-radius   : 10px;
+  transition-delay: 3000ms;
+  position        : relative;
+  justify-content : space-evenly;
+  height          : 38vh;
 }
 
 .social-links-dpm i {
@@ -483,12 +489,6 @@ a i.fa-regular:hover {
   text-shadow: 0 5px 10px rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 765px) {
-  .social-links-dpm {
-    height         : 28rem;
-  }
-}
-
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
 .footer {
@@ -501,6 +501,7 @@ a i.fa-regular:hover {
   align-items     : end;
   right           : 0;
   left            : 0;
+  bottom          : 0;
 }
 
 .container {
