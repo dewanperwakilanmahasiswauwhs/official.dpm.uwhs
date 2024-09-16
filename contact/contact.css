@@ -446,15 +446,16 @@ div.container-contact {
 }
 
 .social-links-dpm {
-  display         : flex;
-  align-items     : start;
-  font-size       : 30px;
-  line-height     : 40px;
-  border-radius   : 10px;
-  transition-delay: 3000ms;
-  position        : relative;
-  justify-content : space-evenly;
-  height          : 38vh;
+  display           : flex;
+  align-items       : start;
+  font-size         : 30px;
+  line-height       : 40px;
+  border-radius     : 10px;
+  transition-delay  : 3000ms;
+  position          : relative;
+  justify-content   : space-evenly;
+  height            : 36vh;
+  animation-duration: 2200ms;
 }
 
 .social-links-dpm i {
