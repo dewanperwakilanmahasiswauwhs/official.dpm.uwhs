@@ -15,7 +15,7 @@ body {
   background-position  : top;
   background-attachment: scroll;
   overflow-x           : hidden;
-  overflow-y           : auto;
+  overflow-y           : visible;
 }
 
 /* Navnbar */
@@ -61,7 +61,6 @@ nav.navigation-bar {
   justify-content    : space-around;
   align-items        : center;
   height             : 60px;
-  width              : 100%;
   border-bottom-style: ridge;
   border-color       : rgb(0, 0, 0);
 }
@@ -327,7 +326,7 @@ p {
 section .content {
   color           : rgb(243, 243, 243);
   background-color: #000000c4;
-  height          : 88vb;
+  height          : 100%;
   position        : relative;
   bottom          : 0;
 
@@ -442,12 +441,14 @@ div.container-contact {
 .social-links-dpm {
   display         : flex;
   justify-content : center;
+  align-items     : center;
   font-size       : 30px;
   line-height     : 40px;
   border-radius   : 10px;
   transition-delay: 3000ms;
   position        : relative;
   justify-content : space-evenly;
+  height          : 30rem;
 }
 
 .social-links-dpm i {
@@ -482,42 +483,22 @@ a i.fa-regular:hover {
   text-shadow: 0 5px 10px rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 765px) {
+  .social-links-dpm {
+    height: 35rem;
+  }
+}
+
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
-/* button {
-  text-decoration   : none;
-  font-style        : italic;
-  border-radius     : 7px;
-}
-
-button:hover {
-  color              : #ffffff;
-  background-color   : #009daf;
-  border-radius      : 7px;
-}
-
-button a {
-  color          : #000000;
-  text-decoration: none;
-  font-family    : 'boogaloo', sans-serif;
-  letter-spacing : 2px;
-  padding        : 3px;
-}
-
-button a:hover {
-  color  : #ffff;
-  padding: 3px;
-} */
-
 .footer {
-  z-index         : 0;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
   height          : auto;
   position        : relative;
-  justify-content : end;
-  top             : -1px;
+  display         : flex;
+  align-items     : end;
   right           : 0;
   left            : 0;
 }
@@ -585,7 +566,7 @@ h4 {
 }
 
 /*responsive*/
-@media(max-width: 767px) {
+/* @media(max-width: 767px) {
   .footer-col {
     width        : 10%;
     margin-bottom: 30px;
@@ -596,4 +577,4 @@ h4 {
   .footer-col {
     width: 100%;
   }
-}
+} */
