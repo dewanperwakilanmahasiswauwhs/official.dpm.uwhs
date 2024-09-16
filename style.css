@@ -673,12 +673,13 @@ button a:hover {
 } */
 
 .footer {
-  margin-top      : -15px;
+  margin-top      : -16px;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
   height          : auto;
   position        : relative;
+  display         : flex;
   bottom          : 0;
   right           : 0;
   left            : 0;
