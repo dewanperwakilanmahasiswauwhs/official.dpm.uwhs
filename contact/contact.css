@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color     : #363636;
+  background-color     : #000000;
   background-image     : url(../asset/uwhs.jpg);
   background-size      : 150%;
   background-repeat    : repeat-y;
@@ -16,6 +16,10 @@ body {
   background-attachment: scroll;
   overflow-x           : hidden;
   overflow-y           : auto;
+}
+
+.background {
+  background-color: #000000c4;
 }
 
 /* Navnbar */
@@ -324,11 +328,10 @@ p {
 
 /* CONTENT---------------------------------------------- */
 section .content {
-  color           : rgb(243, 243, 243);
-  background-color: #000000c4;
-  height          : 100%;
-  position        : relative;
-  bottom          : 0;
+  color   : rgb(243, 243, 243);
+  height  : 100%;
+  position: relative;
+  bottom  : 0;
 
 }
 
@@ -454,7 +457,7 @@ div.container-contact {
   transition-delay  : 3000ms;
   position          : relative;
   justify-content   : space-evenly;
-  height            : 36vh;
+  height            : 23vh;
   animation-duration: 2200ms;
 }
 
@@ -493,21 +496,24 @@ a i.fa-regular:hover {
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
 .footer {
-  background-color: #000000e9;
-  padding         : 25px;
-  width           : 100%;
-  height          : auto;
-  position        : relative;
-  display         : flex;
-  align-items     : end;
-  right           : 0;
-  left            : 0;
-  bottom          : 0;
+  background-color   : #000000b7;
+  padding            : 25px;
+  width              : 100%;
+  height             : 100%;
+  /* position        : fixed; */
+  display            : flex;
+  align-items        : end;
+  right              : 0;
+  left               : 0;
+  bottom             : 0;
 }
 
 .container {
-  max-width: 1170px;
-  margin   : auto;
+  max-width      : 1170px;
+  margin         : auto;
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
 }
 
 .container p {
@@ -566,17 +572,3 @@ h4 {
   color           : #000000;
   background-color: #9b9a9a;
 }
-
-/*responsive*/
-/* @media(max-width: 767px) {
-  .footer-col {
-    width        : 10%;
-    margin-bottom: 30px;
-  }
-}
-
-@media(max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
-} */

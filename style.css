@@ -18,6 +18,10 @@ body {
   overflow-y           : auto;
 }
 
+.background {
+  background-color: #000000c4;
+}
+
 /* Navnbar */
 nav .logo {
   display           : flex;
@@ -315,8 +319,7 @@ nav ul.slide {
 
 /* HEADING */
 div.section {
-  color           : rgb(243, 243, 243);
-  background-color: #000000be;
+  color: rgb(243, 243, 243);
 }
 
 h4.content {
@@ -464,8 +467,6 @@ p {
   background-color: #00000057;
 }
 
-
-
 .carousel-item p {
   text-decoration      : underline;
   color                : #ff0000;
@@ -480,7 +481,7 @@ p {
 .card {
   display         : inline-block;
   border-radius   : 10px;
-  background-color: #000000a4;
+  background-color: #00000096;
   padding-left    : 20px;
   padding-right   : 20px;
 }
@@ -597,7 +598,6 @@ h6.messege {
   position          : relative;
   top               : 0;
   margin            : 0;
-  background-color  : #000000be;
   color             : #ffffff;
   display           : flex;
   justify-content   : center;
@@ -614,7 +614,6 @@ div.messege-form {
   padding-bottom    : 25rem;
   margin            : 0;
   top               : 0;
-  background-color  : #000000be;
   animation-duration: 2000ms;
   height            : 65vh;
   display           : flex;
@@ -673,7 +672,6 @@ button a:hover {
 } */
 
 .footer {
-  margin-top      : -16px;
   background-color: #000000e9;
   padding         : 25px;
   width           : 100%;
@@ -695,7 +693,7 @@ button a:hover {
 
 
 .footer .container p {
-  font-size: 15px;
+  font-size: 13px;
   color    : #545454;
 }
 

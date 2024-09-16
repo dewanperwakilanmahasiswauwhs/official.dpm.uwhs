@@ -18,6 +18,10 @@ body {
   overflow-y           : auto;
 }
 
+.background {
+  background-color: #000000c4;
+}
+
 /* Navnbar */
 nav .logo {
   display           : flex;
@@ -314,7 +318,6 @@ nav ul.slide {
 /* HEADING */
 .section {
   color           : rgb(243, 243, 243);
-  background-color: #000000c4;
   padding-top     : 50px;
 }
 
@@ -357,14 +360,12 @@ h1 span {
   padding-left      : 30px;
   padding-right     : 30px;
   padding-bottom    : 40px;
-  background-color  : #000000c4;
   animation-duration: 2500ms;
   transition-delay  : 1000ms;
 }
 
 .container-group img {
   margin          : 0;
-  background-color: #000000c4;
   margin-bottom   : 20px;
 }
 
