@@ -439,16 +439,16 @@ div.container-contact {
 
 /* ============================================ */
 .social-links-dpm {
-  display         : flex;
-  justify-content : center;
-  align-items     : center;
-  font-size       : 30px;
-  line-height     : 40px;
-  border-radius   : 10px;
-  transition-delay: 3000ms;
-  position        : relative;
-  justify-content : space-evenly;
-  height          : 30rem;
+  display            : flex;
+  justify-content    : center;
+  align-items        : start;
+  font-size          : 30px;
+  line-height        : 40px;
+  border-radius      : 10px;
+  transition-delay   : 3000ms;
+  position           : relative;
+  justify-content    : space-evenly;
+  /* height          : 30rem; */
 }
 
 .social-links-dpm i {
@@ -485,7 +485,7 @@ a i.fa-regular:hover {
 
 @media screen and (max-width: 765px) {
   .social-links-dpm {
-    height: 35rem;
+    height         : 28rem;
   }
 }
 
