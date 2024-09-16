@@ -13,8 +13,9 @@ body {
   background-size      : 200%;
   background-repeat    : repeat-y;
   background-position  : top;
-  background-attachment: fixed;
+  background-attachment: scroll;
   overflow-x           : hidden;
+  overflow-y           : hidden;
 }
 
 /* Navnbar */
@@ -97,6 +98,7 @@ nav ul li:hover {
 
 nav ul li a:hover {
   color                : rgb(0, 202, 185);
+  text-shadow          : 0 0 10px rgb(0, 255, 234);
   text-decoration      : underline;
   text-decoration-color: rgb(0, 202, 185);
   text-underline-offset: 7px;
@@ -109,6 +111,7 @@ nav ul li a.active {
   text-decoration      : underline;
   text-decoration-color: #ffffff;
   color                : rgb(0, 202, 185);
+  text-shadow          : 0 0 10px rgb(0, 255, 234);
   padding              : 4px;
   border-radius        : 3px;
   text-underline-offset: 7px;
