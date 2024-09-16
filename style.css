@@ -581,7 +581,15 @@ div.alert {
     text-shadow          : 0 0 10px #ffff;
     text-decoration      : underline;
     text-underline-offset: 7px;
-    padding-bottom       : 2rem;
+    padding-bottom       : 3rem;
+  }
+
+  input.form-control {
+    width: 37rem;
+  }
+
+  textarea.form-control {
+    width: 37rem;
   }
 }
 
