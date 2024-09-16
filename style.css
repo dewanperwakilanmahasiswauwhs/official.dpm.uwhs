@@ -319,20 +319,24 @@ div.section {
   background-color: #000000be;
 }
 
-h4 {
-  font-family: 'acme', sans-serif;
-  font-size  : 15px;
+h4.content {
+  color    : rgb(243, 243, 243);
+  font-size: 15px;
+}
+
+h5.span {
+  font-family          : 'acme', sans-serif;
+  font-size            : 15px;
+  display              : flex;
+  justify-content      : center;
+  color                : #00c4b0;
+  text-shadow          : 0 0 10px #ffff;
+  text-decoration      : underline;
+  text-underline-offset: 7px;
 }
 
 img.feed {
   width: 38vh;
-}
-
-h4.content {
-  text-decoration      : underline;
-  text-underline-offset: 7px;
-  color                : rgb(243, 243, 243);
-  font-size            : 15px;
 }
 
 center h1 {
@@ -568,8 +572,17 @@ div.alert {
   }
 
   h6.animate__animated {
-    position      : relative;
-    padding-bottom: 10rem;
+    position             : relative;
+    padding-bottom       : 10rem;
+    letter-spacing       : 2px;
+    font-family          : 'boogaloo', sans-serif;
+    font-size            : 1rem;
+    display              : flex;
+    justify-content      : center;
+    color                : #00d4bf;
+    text-shadow          : 0 0 10px #ffff;
+    text-decoration      : underline;
+    text-underline-offset: 7px;
   }
 }
 
