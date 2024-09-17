@@ -642,7 +642,7 @@ button.btn {
   font-family: 'boogaloo', sans-serif;
 }
 
-
+/*============= FORM END ==================*/
 
 /* --------------------------------------------------- */
 /* FOOTER */
@@ -669,6 +669,7 @@ button.btn {
 }
 
 a.port {
+  font-family          : 'boogaloo', sans-serif;
   text-decoration      : underline;
   text-underline-offset: 5px;
   color                : #01b5c9;
@@ -676,12 +677,12 @@ a.port {
 }
 
 a.port:hover {
-  transform    : translateY(-7px);
-  border-radius: 3px;
-  padding      : 2px;
-  font-style   : italic;
-  color        : rgb(255, 255, 255);
-  text-shadow  : 0 0 10px rgb(255, 255, 255);
+  transform       : translateY(-7px);
+  border-radius   : 3px;
+  padding-left    : 2px;
+  font-style      : italic;
+  color           : rgb(255, 255, 255);
+  text-shadow     : 0 0 10px rgb(255, 255, 255);
 }
 
 

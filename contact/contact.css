@@ -451,14 +451,16 @@ div.container-contact {
 .social-links-dpm {
   display           : flex;
   align-items       : start;
+  justify-content   : space-evenly;
+  top               : 5rem;
   font-size         : 30px;
   line-height       : 40px;
   border-radius     : 10px;
   transition-delay  : 3000ms;
-  position          : relative;
-  justify-content   : space-evenly;
-  height            : 24vh;
+  height            : 13rem;
   animation-duration: 2200ms;
+  position          : relative;
+  overflow-y        : hidden;
 }
 
 .social-links-dpm i {
@@ -493,18 +495,134 @@ a i.fa-regular:hover {
   text-shadow: 0 5px 10px rgb(255, 255, 255);
 }
 
+/* ==============Form============ */
+.form-dpm {
+  display : grid;
+  position: relative;
+  top     : 0;
+}
+
+div.alert {
+  display           : grid;
+  position          : relative;
+  text-align        : center;
+  justify-self      : center;
+  z-index           : 1;
+  margin            : 0;
+  width             : 90%;
+  animation-duration: 1.5s;
+}
+
+.btn-close {
+  position   : relative;
+  height     : auto;
+  align-items: center;
+  bottom     : 0;
+  top        : 0;
+}
+
+@media screen and (min-width: 765px) {
+  div.messege-form {
+    padding-bottom: 14rem;
+  }
+
+  div.alert {
+    display           : grid;
+    position          : relative;
+    text-align        : center;
+    justify-self      : center;
+    text-align        : center;
+    justify-content   : center;
+    z-index           : 1;
+    margin            : 0;
+    z-index           : 2;
+    width             : 60%;
+    animation-duration: 1.5s;
+  }
+
+  h6.messege {
+    position             : relative;
+    letter-spacing       : 2px;
+    font-family          : 'boogaloo', sans-serif;
+    font-size            : 1rem;
+    display              : flex;
+    justify-content      : center;
+    text-shadow          : 0 0 10px #ffff;
+    text-decoration      : underline;
+    text-underline-offset: 7px;
+    padding-bottom       : 3rem;
+  }
+
+  input.form-control {
+    width: 37rem;
+  }
+
+  textarea.form-control {
+    width: 37rem;
+  }
+}
+
+h6.messege {
+  position          : relative;
+  top               : 0;
+  margin            : 0;
+  color             : #ffffff;
+  display           : flex;
+  justify-content   : center;
+  font-size         : 25px;
+  font-weight       : 700;
+  padding-bottom    : 5rem;
+  animation-duration: 2s;
+}
+
+div.messege-form {
+  position          : relative;
+  padding-top       : 17rem;
+  padding-bottom    : 16rem;
+  margin            : 0;
+  top               : 0;
+  animation-duration: 2000ms;
+  height            : 60vh;
+  display           : flex;
+  align-items       : center;
+  justify-content   : center;
+}
+
+label {
+  font-family: 'boogaloo', sans-serif;
+  color      : #ffffff;
+}
+
+.form-control {
+  font-family     : sans-serif;
+  width           : 40vh;
+  background-color: #c1c1c1;
+  margin-bottom   : 18px;
+
+}
+
+form {
+  padding-bottom: 23vh;
+}
+
+button.btn {
+  font-family: 'boogaloo', sans-serif;
+}
+
+/*============= FORM END ==================*/
+
 /* CONTENT END---------------------------------------------- */
 /* FOOTER */
 .footer {
-  background-color: #000000b7;
+  background-color: #000000ef;
   padding-top     : 22px;
   padding-bottom  : 12px;
   width           : 100%;
-  position        : relative;
   display         : flex;
   align-items     : center;
   justify-content : center;
-  inset           : 0 0 0 0;
+  position        : relative;
+  bottom          : 0;
 }
 
 .footer p {
@@ -518,6 +636,7 @@ a i.fa-regular:hover {
 }
 
 a.port {
+  font-family          : 'boogaloo', sans-serif;
   text-decoration      : underline;
   text-underline-offset: 5px;
   color                : #01b5c9;
@@ -527,7 +646,7 @@ a.port {
 a.port:hover {
   transform    : translateY(-7px);
   border-radius: 3px;
-  padding      : 2px;
+  padding-left : 2px;
   font-style   : italic;
   color        : rgb(255, 255, 255);
   text-shadow  : 0 0 10px rgb(255, 255, 255);
@@ -542,25 +661,3 @@ h4 {
 }
 
 /* ========================================== */
-
-.social-links-me {
-  width: 100%;
-}
-
-.social-links-me i {
-  display      : inline-block;
-  font-size    : 20px;
-  height       : 40px;
-  width        : 40px;
-  margin       : 10px;
-  text-align   : center;
-  line-height  : 40px;
-  border-radius: 25%;
-  color        : #00e5ff;
-  transition   : all 0.5s ease;
-}
-
-.social-links-me i:hover {
-  color           : #000000;
-  background-color: #9b9a9a;
-}
