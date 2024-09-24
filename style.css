@@ -666,6 +666,7 @@ button.btn {
   font-size      : 13px;
   color          : #545454;
   font-family    : sans-serif;
+  font-style     : italic;
 }
 
 a.port {
@@ -677,12 +678,12 @@ a.port {
 }
 
 a.port:hover {
-  transform       : translateY(-7px);
-  border-radius   : 3px;
-  padding-left    : 2px;
-  font-style      : italic;
-  color           : rgb(255, 255, 255);
-  text-shadow     : 0 0 10px rgb(255, 255, 255);
+  transform    : translateY(-7px);
+  border-radius: 3px;
+  padding-left : 2px;
+  font-style   : italic;
+  color        : rgb(255, 255, 255);
+  text-shadow  : 0 0 10px rgb(255, 255, 255);
 }
 
 
